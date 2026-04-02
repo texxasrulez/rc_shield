@@ -248,12 +248,6 @@ Analysis is invalidated automatically when the message identity hash changes or 
 - More advanced geolocation providers.
 - Policy-aware trusted sender models.
 
-## Screenshots
-
-- Mailbox threat icons: placeholder
-- Message analysis panel: placeholder
-- Settings section: placeholder
-
 ## Upgrade Notes
 
 - Apply schema updates when moving between plugin versions that alter `rcs_cache`.
