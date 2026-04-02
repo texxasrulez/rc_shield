@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'রাউন্ডকিউবশিল্ড';
+$labels['section_title'] = 'রাউন্ডকিউবশিল্ড';
+$labels['show_mailbox_icons'] = 'মেইলবক্সের হুমকি আইকন দেখান';
+$labels['show_tooltips'] = 'হুমকির টুলটিপ দেখান';
+$labels['panel_density'] = 'বিশ্লেষণ প্যানেলের ঘনত্ব';
+$labels['panel_density_compact'] = 'সংক্ষিপ্ত';
+$labels['panel_density_detailed'] = 'বিস্তারিত';
+$labels['threat_score'] = 'ঝুঁকির স্কোর';
+$labels['message_analysis'] = 'বিপদ মূল্যায়ন';
+$labels['header_intelligence'] = 'হেডার ইন্টেলিজেন্স';
+$labels['summary'] = 'সারসংক্ষেপ';
+$labels['safe'] = 'নিরাপদ';
+$labels['suspicious'] = 'সন্দেহজনক';
+$labels['danger'] = 'বিপজ্জনক';
+$labels['unknown'] = 'অজানা';
+$labels['loading'] = 'বার্তা বিশ্লেষণ';
+$labels['spf'] = 'এসপিএফ';
+$labels['dkim'] = 'ডিকেআইএম';
+$labels['dmarc'] = 'ডিএমএআরসি';
+$labels['from_domain'] = 'ডোমেইন থেকে';
+$labels['replyto_domain'] = 'প্রত্যুত্তর-ঠিকানা ডোমেইন';
+$labels['returnpath_domain'] = 'রিটার্ন-পাথ ডোমেইন';
+$labels['origin_ip'] = 'উৎপত্তি আইপি';
+$labels['reverse_dns'] = 'রিভার্স ডিএনএস';
+$labels['geo'] = 'দেশ';
+$labels['reputation'] = 'সুনাম';
+$labels['reasons'] = 'কারণসমূহ';
+$labels['technical_details'] = 'প্রযুক্তিগত বিবরণ';
+$labels['mismatch_warning'] = 'ডোমেইন অমিল সনাক্ত হয়েছে';
+$labels['not_available'] = 'উপলব্ধ নয়';
+$labels['cache_purged'] = 'রাউন্ডকিউবশিল্ড ক্যাশ মুছে ফেলা হয়েছে';
+?>

@@ -1,0 +1,21 @@
+@import "../../../styles/variables.css";
+@import "../../../styles/common.css";
+
+:root {
+  --rcs-panel-text: #101828;
+  --rcs-badge-text: #000;
+  --rcs-panel-bg: rgba(250, 246, 238, 0.98);
+  --rcs-panel-border: rgba(134, 112, 82, 0.3);
+  --rcs-badge-bg: transparent;
+  --rcs-shadow: 0 4px 10px rgba(86, 68, 45, 0.12);
+  --rcs-badge-shadow: 0 1px 3px rgba(86, 68, 45, 0.1);
+}
+
+#rcmrowrc_shield td.section {
+  background-image: none;
+  padding-left: 5px;
+}
+
+.rcs-popover {
+  border-radius: 6px;
+}

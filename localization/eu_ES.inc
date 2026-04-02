@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Posta-ontziko mehatxu-ikonoak erakutsi';
+$labels['show_tooltips'] = 'Mehatxuaren tresna-aholkuak erakutsi';
+$labels['panel_density'] = 'Azterketa-panelaren dentsitatea';
+$labels['panel_density_compact'] = 'Trinko';
+$labels['panel_density_detailed'] = 'Xehetasunez';
+$labels['threat_score'] = 'Mehatxu-puntuazioa';
+$labels['message_analysis'] = 'Arriskua ebaluatzea';
+$labels['header_intelligence'] = 'Iburuko Adimena';
+$labels['summary'] = 'Laburpena';
+$labels['safe'] = 'Seguru';
+$labels['suspicious'] = 'Susmagarria';
+$labels['danger'] = 'Arriskutsua';
+$labels['unknown'] = 'Ezezaguna';
+$labels['loading'] = 'Mezuaren analisia';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Domeinutik';
+$labels['replyto_domain'] = 'Erantzun-helbidea domeinua';
+$labels['returnpath_domain'] = 'Erantzun-bide domeinua';
+$labels['origin_ip'] = 'Jatorrizko IP';
+$labels['reverse_dns'] = 'DNS alderantzizkoa';
+$labels['geo'] = 'Herrialdea';
+$labels['reputation'] = 'Ospea';
+$labels['reasons'] = 'Arrazoiak';
+$labels['technical_details'] = 'Datu teknikoak';
+$labels['mismatch_warning'] = 'Domeinuaren desegokitasuna antzeman da';
+$labels['not_available'] = 'Ez dago eskuragarri';
+$labels['cache_purged'] = 'RoundcubeShield cachea garbitu da';
+?>

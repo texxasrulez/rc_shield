@@ -1,0 +1,28 @@
+@import "../../../styles/variables.css";
+@import "../../../styles/common.css";
+
+:root {
+  --rcs-panel-text: #101828;
+  --rcs-badge-text: #000;
+  --rcs-badge-score-color: #101828;
+  --rcs-panel-bg: rgba(249, 252, 255, 0.98);
+  --rcs-panel-border: rgba(90, 125, 165, 0.24);
+  --rcs-badge-bg: transparent;
+  --rcs-shadow: 0 12px 28px rgba(46, 88, 130, 0.18);
+  --rcs-badge-shadow: 0 4px 10px rgba(46, 88, 130, 0.14);
+}
+
+#rcmrowrc_shield td.section {
+  background-image: none;
+  padding-left: 5px;
+}
+
+.listing.iconized li.rc_shield > a:before,
+.listing.iconized tr.rc_shield>td.section:before {
+  content: "\f3ed";
+}
+
+html.dark-mode {
+  --rcs-badge-text: #e5edf7;
+  --rcs-badge-score-color: #f8fbff;
+}

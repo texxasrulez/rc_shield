@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Show mailbox threat icons';
+$labels['show_tooltips'] = 'Show threat tooltips';
+$labels['panel_density'] = 'Analysis panel density';
+$labels['panel_density_compact'] = 'Compact';
+$labels['panel_density_detailed'] = 'Detailed';
+$labels['threat_score'] = 'Threat Score';
+$labels['message_analysis'] = 'Threat Assessment';
+$labels['header_intelligence'] = 'Header Intelligence';
+$labels['summary'] = 'Summary';
+$labels['safe'] = 'Safe';
+$labels['suspicious'] = 'Suspicious';
+$labels['danger'] = 'Dangerous';
+$labels['unknown'] = 'Unknown';
+$labels['loading'] = 'Analyzing message';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'From domain';
+$labels['replyto_domain'] = 'Reply-To domain';
+$labels['returnpath_domain'] = 'Return-Path domain';
+$labels['origin_ip'] = 'Origin IP';
+$labels['reverse_dns'] = 'Reverse DNS';
+$labels['geo'] = 'Country';
+$labels['reputation'] = 'Reputation';
+$labels['reasons'] = 'Reasons';
+$labels['technical_details'] = 'Technical details';
+$labels['mismatch_warning'] = 'Domain mismatch detected';
+$labels['not_available'] = 'Not available';
+$labels['cache_purged'] = 'RoundcubeShield cache purged';
+?>

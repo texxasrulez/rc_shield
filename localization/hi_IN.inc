@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'राउंडक्यूबशील्ड';
+$labels['section_title'] = 'राउंडक्यूबशील्ड';
+$labels['show_mailbox_icons'] = 'मेलबॉक्स खतरे के आइकन दिखाएँ';
+$labels['show_tooltips'] = 'धमकी टूलटिप्स दिखाएँ';
+$labels['panel_density'] = 'विश्लेषण पैनल घनत्व';
+$labels['panel_density_compact'] = 'संक्षिप्त';
+$labels['panel_density_detailed'] = 'विस्तृत';
+$labels['threat_score'] = 'खतरे का स्कोर';
+$labels['message_analysis'] = 'खतरे का आकलन';
+$labels['header_intelligence'] = 'शीर्षक बुद्धिमत्ता';
+$labels['summary'] = 'सारांश';
+$labels['safe'] = 'सुरक्षित';
+$labels['suspicious'] = 'संदिग्ध';
+$labels['danger'] = 'खतरनाक';
+$labels['unknown'] = 'अज्ञात';
+$labels['loading'] = 'संदेश का विश्लेषण';
+$labels['spf'] = 'एसपीएफ़';
+$labels['dkim'] = 'डीकेआईएम';
+$labels['dmarc'] = 'डीएमएआरसी';
+$labels['from_domain'] = 'डोमेन से';
+$labels['replyto_domain'] = 'जवाब-के-लिए डोमेन';
+$labels['returnpath_domain'] = 'रिटर्न-पाथ डोमेन';
+$labels['origin_ip'] = 'मूल आईपी';
+$labels['reverse_dns'] = 'रिवर्स डीएनएस';
+$labels['geo'] = 'देश';
+$labels['reputation'] = 'प्रतिष्ठा';
+$labels['reasons'] = 'कारण';
+$labels['technical_details'] = 'तकनीकी विवरण';
+$labels['mismatch_warning'] = 'डोमेन असंगति का पता चला';
+$labels['not_available'] = 'उपलब्ध नहीं है';
+$labels['cache_purged'] = 'राउंडक्यूबशील्ड कैश साफ़ किया गया';
+?>

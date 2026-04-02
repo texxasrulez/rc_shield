@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Poçt qutusu təhdid ikonlarını göstər';
+$labels['show_tooltips'] = 'Təhdid alət ucundakı izahatları göstər';
+$labels['panel_density'] = 'Analiz paneli sıxlığı';
+$labels['panel_density_compact'] = 'Sıx';
+$labels['panel_density_detailed'] = 'Ətraflı';
+$labels['threat_score'] = 'Təhdid balı';
+$labels['message_analysis'] = 'Təhdid qiymətləndirilməsi';
+$labels['header_intelligence'] = 'Başlıq Kəşfiyyatı';
+$labels['summary'] = 'Xülasə';
+$labels['safe'] = 'Təhlükəsiz';
+$labels['suspicious'] = 'Şübhəli';
+$labels['danger'] = 'Təhlükəli';
+$labels['unknown'] = 'Naməlum';
+$labels['loading'] = 'Mesajı analiz edir';
+$labels['spf'] = 'Günəşdən qoruyucu faktor';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Domendən';
+$labels['replyto_domain'] = 'Cavab ünvanı domeni';
+$labels['returnpath_domain'] = 'Qayıdış-yolu domen';
+$labels['origin_ip'] = 'Mənbə IP';
+$labels['reverse_dns'] = 'Əks DNS';
+$labels['geo'] = 'Ölkə';
+$labels['reputation'] = 'Şöhrət';
+$labels['reasons'] = 'Səbəblər';
+$labels['technical_details'] = 'Texniki detallar';
+$labels['mismatch_warning'] = 'Domen uyğunsuzluğu aşkarlandı';
+$labels['not_available'] = 'Mövcud deyil';
+$labels['cache_purged'] = 'RoundcubeShield keş təmizləndi';
+?>

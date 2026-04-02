@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'ரவுண்ட்யூப்ஷீல்ட்';
+$labels['section_title'] = 'ரவுண்ட்யூப்ஷீல்ட்';
+$labels['show_mailbox_icons'] = 'அஞ்சல் பெட்டி அச்சுறுத்தல் சின்னங்களைக் காட்டு';
+$labels['show_tooltips'] = 'அச்சுறுத்தல் கருவி உதவிக்குறிப்புகளைக் காட்டு';
+$labels['panel_density'] = 'பகுப்பாய்வுப் பலகை அடர்த்தி';
+$labels['panel_density_compact'] = 'இறுக்கம்';
+$labels['panel_density_detailed'] = 'விரிவான';
+$labels['threat_score'] = 'அச்சுறுத்தல் மதிப்பெண்';
+$labels['message_analysis'] = 'அச்சுறுத்தல் மதிப்பீடு';
+$labels['header_intelligence'] = 'தலைப்பு நுண்ணறிவு';
+$labels['summary'] = 'சுருக்கம்';
+$labels['safe'] = 'பாதுகாப்பான';
+$labels['suspicious'] = 'சந்தேகத்திற்குரிய';
+$labels['danger'] = 'அபாயகரமானது';
+$labels['unknown'] = 'தெரியாத';
+$labels['loading'] = 'செய்தியைப் பகுப்பாய்வு செய்தல்';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'டி.கே.ஐ.எம்';
+$labels['dmarc'] = 'டிஎம்ஏஆர்சி';
+$labels['from_domain'] = 'தளத்திலிருந்து';
+$labels['replyto_domain'] = 'பதிலுக்கு டொமைன்';
+$labels['returnpath_domain'] = 'திரும்பும்-பாதம் டொமைன்';
+$labels['origin_ip'] = 'மூல அறிவுசார் சொத்துரிமை';
+$labels['reverse_dns'] = 'மாற்றப்பட்ட டிஎன்எஸ்';
+$labels['geo'] = 'நாடு';
+$labels['reputation'] = 'புகழ்';
+$labels['reasons'] = 'காரணங்கள்';
+$labels['technical_details'] = 'தொழில்நுட்ப விவரங்கள்';
+$labels['mismatch_warning'] = 'டொமைன் பொருந்தவில்லை கண்டறியப்பட்டது';
+$labels['not_available'] = 'கிடைக்கவில்லை';
+$labels['cache_purged'] = 'ரவுண்ட்யூப்ஷீல்ட் கேச் அழிக்கப்பட்டது';
+?>

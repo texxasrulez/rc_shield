@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'راؤنڈکیوب شیلڈ';
+$labels['section_title'] = 'راؤنڈکیوب شیلڈ';
+$labels['show_mailbox_icons'] = 'میل باکس کے خطرے کے آئیکنز دکھائیں';
+$labels['show_tooltips'] = 'دھمکی کے ٹول ٹِپس دکھائیں';
+$labels['panel_density'] = 'تجزیاتی پینل کی کثافت';
+$labels['panel_density_compact'] = 'مختصر';
+$labels['panel_density_detailed'] = 'تفصیلی';
+$labels['threat_score'] = 'خطرے کا اسکور';
+$labels['message_analysis'] = 'خطرے کا جائزہ';
+$labels['header_intelligence'] = 'ہیڈر انٹیلیجنس';
+$labels['summary'] = 'خلاصہ';
+$labels['safe'] = 'محفوظ';
+$labels['suspicious'] = 'مشکوک';
+$labels['danger'] = 'خطرناک';
+$labels['unknown'] = 'نامعلوم';
+$labels['loading'] = 'پیغام کا تجزیہ';
+$labels['spf'] = 'ایس پی ایف';
+$labels['dkim'] = 'ڈی کے آئی ایم';
+$labels['dmarc'] = 'ڈی ایم اے آر سی';
+$labels['from_domain'] = 'ڈومین سے';
+$labels['replyto_domain'] = 'جواب دینے کے لیے ڈومین';
+$labels['returnpath_domain'] = 'ریٹرن-پاتھ ڈومین';
+$labels['origin_ip'] = 'ماخذ آئی پی';
+$labels['reverse_dns'] = 'الٹا ڈی این ایس';
+$labels['geo'] = 'ملک';
+$labels['reputation'] = 'ساکھ';
+$labels['reasons'] = 'وجوہات';
+$labels['technical_details'] = 'تکنیکی تفصیلات';
+$labels['mismatch_warning'] = 'ڈومین کا تضاد پایا گیا';
+$labels['not_available'] = 'دستیاب نہیں';
+$labels['cache_purged'] = 'رائونڈکیوب شیلڈ کیش صاف کر دیا گیا';
+?>

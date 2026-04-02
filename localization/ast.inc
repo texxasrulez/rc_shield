@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'ৰাউণ্ডকিউবশ্বিল্ড';
+$labels['section_title'] = 'ৰাউণ্ডকিউবশ্বিল্ড';
+$labels['show_mailbox_icons'] = 'মেইলবক্সৰ ভাবুকিৰ আইকনসমূহ দেখুৱাওক';
+$labels['show_tooltips'] = 'ভাবুকিৰ টুলটিপসমূহ দেখুৱাওক';
+$labels['panel_density'] = 'বিশ্লেষণ পেনেলৰ ঘনত্ব';
+$labels['panel_density_compact'] = 'সংক্ষিপ্ত';
+$labels['panel_density_detailed'] = 'বিৱৰণসহ';
+$labels['threat_score'] = 'ভাবুকিৰ স্ক\'ৰ';
+$labels['message_analysis'] = 'ভাবুকিৰ মূল্যায়ন';
+$labels['header_intelligence'] = 'হেডাৰ ইন্টেলিজেন্স';
+$labels['summary'] = 'সাৰাংশ';
+$labels['safe'] = 'সুৰক্ষিত';
+$labels['suspicious'] = 'সন্দেহজনক';
+$labels['danger'] = 'বিপদজনক';
+$labels['unknown'] = 'অজ্ঞাত';
+$labels['loading'] = 'বাৰ্তা বিশ্লেষণ';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'ডিকেআইএম';
+$labels['dmarc'] = 'ডিএমএআৰচি';
+$labels['from_domain'] = 'ডমেইনৰ পৰা';
+$labels['replyto_domain'] = 'উত্তৰ-প্ৰেৰণ ডমেইন';
+$labels['returnpath_domain'] = 'ৰিটাৰ্ণ-পাথ ডমেইন';
+$labels['origin_ip'] = 'উৎস আইপি';
+$labels['reverse_dns'] = 'ৰিভাৰ্ছ ডিএনএছ';
+$labels['geo'] = 'দেশ';
+$labels['reputation'] = 'সুনাম';
+$labels['reasons'] = 'কাৰণসমূহ';
+$labels['technical_details'] = 'কাৰিকৰী বিৱৰণ';
+$labels['mismatch_warning'] = 'ডমেইন অমিল ধৰা পৰিছে';
+$labels['not_available'] = 'উপলব্ধ নহয়';
+$labels['cache_purged'] = 'ৰাউণ্ডকিউবশ্বিল্ড কেছ পৰিষ্কাৰ কৰা হ\'ল';
+?>

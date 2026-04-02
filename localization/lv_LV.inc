@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Rādīt pastkastītes draudu ikonas';
+$labels['show_tooltips'] = 'Rādīt draudu uzrakstus';
+$labels['panel_density'] = 'Analīzes paneļa blīvums';
+$labels['panel_density_compact'] = 'Kompakts';
+$labels['panel_density_detailed'] = 'Detalizēta informācija';
+$labels['threat_score'] = 'Apdraudējuma vērtējums';
+$labels['message_analysis'] = 'Draudu novērtējums';
+$labels['header_intelligence'] = 'Virsraksta izlūkošana';
+$labels['summary'] = 'Kopsavilkums';
+$labels['safe'] = 'Drošs';
+$labels['suspicious'] = 'Aizdomīgs';
+$labels['danger'] = 'Bīstams';
+$labels['unknown'] = 'Nezināms';
+$labels['loading'] = 'Ziņojuma analīze';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'No domēna';
+$labels['replyto_domain'] = 'Atbildēt-To domēns';
+$labels['returnpath_domain'] = 'Atgriešanās ceļa domēns';
+$labels['origin_ip'] = 'Izcelsmes IP';
+$labels['reverse_dns'] = 'Reversais DNS';
+$labels['geo'] = 'Valsts';
+$labels['reputation'] = 'Reputācija';
+$labels['reasons'] = 'Iemesli';
+$labels['technical_details'] = 'Tehniskā informācija';
+$labels['mismatch_warning'] = 'Atklāta domēna neatbilstība';
+$labels['not_available'] = 'Nav pieejams';
+$labels['cache_purged'] = 'RoundcubeShield kešatmiņa ir iztīrīta';
+?>

@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Mostra les icones d\'amenaça de la safata d\'entrada';
+$labels['show_tooltips'] = 'Mostra les pistes d\'amenaça';
+$labels['panel_density'] = 'Densitat del panell d\'anàlisi';
+$labels['panel_density_compact'] = 'Compacte';
+$labels['panel_density_detailed'] = 'Detallat';
+$labels['threat_score'] = 'Puntuació d\'amenaça';
+$labels['message_analysis'] = 'Avaluació de l\'amenaça';
+$labels['header_intelligence'] = 'Intel·ligència de capçalera';
+$labels['summary'] = 'Resum';
+$labels['safe'] = 'Segur';
+$labels['suspicious'] = 'Sospitós';
+$labels['danger'] = 'Perillós';
+$labels['unknown'] = 'Desconegut';
+$labels['loading'] = 'Analitzant el missatge';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Del domini';
+$labels['replyto_domain'] = 'Domini de resposta';
+$labels['returnpath_domain'] = 'Dominio de retorn de la ruta';
+$labels['origin_ip'] = 'Propietat intel·lectual d\'origen';
+$labels['reverse_dns'] = 'DNS invers';
+$labels['geo'] = 'País';
+$labels['reputation'] = 'Reputació';
+$labels['reasons'] = 'Raons';
+$labels['technical_details'] = 'Detalls tècnics';
+$labels['mismatch_warning'] = 'Detectada inconsistència de domini';
+$labels['not_available'] = 'No disponible';
+$labels['cache_purged'] = 'Cachè de RoundcubeShield purgada';
+?>

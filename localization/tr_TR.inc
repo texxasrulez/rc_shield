@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Posta kutusu tehdit simgelerini göster';
+$labels['show_tooltips'] = 'Tehdit araç ipuçlarını göster';
+$labels['panel_density'] = 'Analiz paneli yoğunluğu';
+$labels['panel_density_compact'] = 'Kompakt';
+$labels['panel_density_detailed'] = 'Detaylı';
+$labels['threat_score'] = 'Tehdit Puanı';
+$labels['message_analysis'] = 'Tehdit Değerlendirmesi';
+$labels['header_intelligence'] = 'Başlık İstihbaratı';
+$labels['summary'] = 'Özet';
+$labels['safe'] = 'Güvenli';
+$labels['suspicious'] = 'Şüpheli';
+$labels['danger'] = 'Tehlikeli';
+$labels['unknown'] = 'Bilinmiyor';
+$labels['loading'] = 'Mesaj analizi';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Etki alanından';
+$labels['replyto_domain'] = 'Yanıtla alan adı';
+$labels['returnpath_domain'] = 'Dönüş Yolu etki alanı';
+$labels['origin_ip'] = 'Kaynak IP';
+$labels['reverse_dns'] = 'Ters DNS';
+$labels['geo'] = 'Ülke';
+$labels['reputation'] = 'İtibar';
+$labels['reasons'] = 'Nedenler';
+$labels['technical_details'] = 'Teknik ayrıntılar';
+$labels['mismatch_warning'] = 'Etki alanı uyuşmazlığı algılandı';
+$labels['not_available'] = 'Mevcut değil';
+$labels['cache_purged'] = 'RoundcubeShield önbelleği temizlendi';
+?>

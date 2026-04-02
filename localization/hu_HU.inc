@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'A postafiók fenyegetés ikonjainak megjelenítése';
+$labels['show_tooltips'] = 'Fenyegetések eszköztárainak megjelenítése';
+$labels['panel_density'] = 'Elemzési panel sűrűsége';
+$labels['panel_density_compact'] = 'Kompakt';
+$labels['panel_density_detailed'] = 'Részletes';
+$labels['threat_score'] = 'Fenyegetettségi pontszám';
+$labels['message_analysis'] = 'Fenyegetettségi értékelés';
+$labels['header_intelligence'] = 'Fejléc intelligencia';
+$labels['summary'] = 'Összefoglaló';
+$labels['safe'] = 'Biztonságos';
+$labels['suspicious'] = 'Gyanús';
+$labels['danger'] = 'Veszélyes';
+$labels['unknown'] = 'Ismeretlen';
+$labels['loading'] = 'Üzenet elemzése';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'A domainről';
+$labels['replyto_domain'] = 'Reply-To domain';
+$labels['returnpath_domain'] = 'Visszatérési útvonal tartomány';
+$labels['origin_ip'] = 'Származási IP';
+$labels['reverse_dns'] = 'Fordított DNS';
+$labels['geo'] = 'Ország';
+$labels['reputation'] = 'Hírnév';
+$labels['reasons'] = 'Okok';
+$labels['technical_details'] = 'Műszaki részletek';
+$labels['mismatch_warning'] = 'Tartományi eltérés észlelve';
+$labels['not_available'] = 'Nem elérhető';
+$labels['cache_purged'] = 'RoundcubeShield gyorsítótár megtisztítva';
+?>

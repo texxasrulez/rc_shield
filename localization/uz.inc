@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Pochta qutisi tahdid ikonalarini ko\'rsating';
+$labels['show_tooltips'] = 'Xavf to\'g\'risidagi yordamchi ma\'lumotlarni ko\'rsating';
+$labels['panel_density'] = 'Tahlil paneli zichligi';
+$labels['panel_density_compact'] = 'Qisqa';
+$labels['panel_density_detailed'] = 'Tafsilotli';
+$labels['threat_score'] = 'Xavf balli';
+$labels['message_analysis'] = 'Xavfni baholash';
+$labels['header_intelligence'] = 'Sarlavha Aqli';
+$labels['summary'] = 'Xulosa';
+$labels['safe'] = 'Xavfsiz';
+$labels['suspicious'] = 'Shubhali';
+$labels['danger'] = 'Xavfli';
+$labels['unknown'] = 'Noma\'lum';
+$labels['loading'] = 'Xabarni tahlil qilish';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Domenidan';
+$labels['replyto_domain'] = 'Javob manzili domeni';
+$labels['returnpath_domain'] = 'Return-Path domeni';
+$labels['origin_ip'] = 'Kelib chiqishi IP';
+$labels['reverse_dns'] = 'Teskari DNS';
+$labels['geo'] = 'Davlat';
+$labels['reputation'] = 'Obro\'';
+$labels['reasons'] = 'Sabablar';
+$labels['technical_details'] = 'Texnik tafsilotlar';
+$labels['mismatch_warning'] = 'Domen nomlari mos kelmasligi aniqlandi';
+$labels['not_available'] = 'Mavjud emas';
+$labels['cache_purged'] = 'RoundcubeShield kesh tozalandi';
+?>

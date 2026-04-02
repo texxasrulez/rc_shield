@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Zobrazit ikony ohrožení poštovní schránky';
+$labels['show_tooltips'] = 'Zobrazení popisků nástrojů hrozby';
+$labels['panel_density'] = 'Hustota analytického panelu';
+$labels['panel_density_compact'] = 'Kompaktní';
+$labels['panel_density_detailed'] = 'Podrobné informace na';
+$labels['threat_score'] = 'Skóre ohrožení';
+$labels['message_analysis'] = 'Posouzení hrozeb';
+$labels['header_intelligence'] = 'Inteligentní hlavička';
+$labels['summary'] = 'Souhrn';
+$labels['safe'] = 'Bezpečné';
+$labels['suspicious'] = 'Podezřelé';
+$labels['danger'] = 'Nebezpečné';
+$labels['unknown'] = 'Neznámý';
+$labels['loading'] = 'Analýza zprávy';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Z domény';
+$labels['replyto_domain'] = 'Odpověď na doménu';
+$labels['returnpath_domain'] = 'Doména zpáteční cesty';
+$labels['origin_ip'] = 'Původní IP';
+$labels['reverse_dns'] = 'Reverzní DNS';
+$labels['geo'] = 'Země';
+$labels['reputation'] = 'Reputace';
+$labels['reasons'] = 'Důvody';
+$labels['technical_details'] = 'Technické detaily';
+$labels['mismatch_warning'] = 'Zjištěna neshoda domén';
+$labels['not_available'] = 'Není k dispozici';
+$labels['cache_purged'] = 'Vyčištění mezipaměti RoundcubeShield';
+?>

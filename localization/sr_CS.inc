@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'РаундкубШилд';
+$labels['section_title'] = 'РаундкубШилд';
+$labels['show_mailbox_icons'] = 'Прикажи иконе претњи у поштанском сандучету';
+$labels['show_tooltips'] = 'Прикажи алатице са упозорењима';
+$labels['panel_density'] = 'Густина панела за анализу';
+$labels['panel_density_compact'] = 'Компактни';
+$labels['panel_density_detailed'] = 'Детаљно';
+$labels['threat_score'] = 'Рејтинг претње';
+$labels['message_analysis'] = 'Процена претње';
+$labels['header_intelligence'] = 'Интелигенција заглавља';
+$labels['summary'] = 'Сажетак';
+$labels['safe'] = 'Безбедно';
+$labels['suspicious'] = 'Сумњив';
+$labels['danger'] = 'Опасно';
+$labels['unknown'] = 'Непознато';
+$labels['loading'] = 'Анализирање поруке';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'ДиКим';
+$labels['dmarc'] = 'ДМАРЦ';
+$labels['from_domain'] = 'Из домена';
+$labels['replyto_domain'] = 'Домен за одговор';
+$labels['returnpath_domain'] = 'Домен повратног пута';
+$labels['origin_ip'] = 'Порекло ИП';
+$labels['reverse_dns'] = 'обрнути DNS';
+$labels['geo'] = 'Земља';
+$labels['reputation'] = 'Репутација';
+$labels['reasons'] = 'Разлози';
+$labels['technical_details'] = 'Технички детаљи';
+$labels['mismatch_warning'] = 'Уочена неусклађеност домена';
+$labels['not_available'] = 'Није доступно';
+$labels['cache_purged'] = 'Кеш RoundcubeShield-а је очишћен';
+?>

@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Näytä postilaatikon uhkakuvakkeet';
+$labels['show_tooltips'] = 'Näytä uhkatyökalutiedot';
+$labels['panel_density'] = 'Analyysipaneelin tiheys';
+$labels['panel_density_compact'] = 'Kompakti';
+$labels['panel_density_detailed'] = 'Yksityiskohtaiset tiedot';
+$labels['threat_score'] = 'Uhkapisteet';
+$labels['message_analysis'] = 'Uhkien arviointi';
+$labels['header_intelligence'] = 'Header Intelligence';
+$labels['summary'] = 'Yhteenveto';
+$labels['safe'] = 'Turvallinen';
+$labels['suspicious'] = 'Epäilyttävä';
+$labels['danger'] = 'Vaarallinen';
+$labels['unknown'] = 'Tuntematon';
+$labels['loading'] = 'Viestin analysointi';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Verkkotunnuksesta';
+$labels['replyto_domain'] = 'Reply-To verkkotunnus';
+$labels['returnpath_domain'] = 'Paluupolun verkkotunnus';
+$labels['origin_ip'] = 'Alkuperä IP';
+$labels['reverse_dns'] = 'Käänteinen DNS';
+$labels['geo'] = 'Maa';
+$labels['reputation'] = 'Maine';
+$labels['reasons'] = 'Syyt';
+$labels['technical_details'] = 'Tekniset tiedot';
+$labels['mismatch_warning'] = 'Havaittu toimialueen epäsuhta';
+$labels['not_available'] = 'Ei saatavilla';
+$labels['cache_purged'] = 'RoundcubeShieldin välimuisti puhdistettu';
+?>

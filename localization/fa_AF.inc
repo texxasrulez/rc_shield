@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'راندکیوب‌شیلد';
+$labels['section_title'] = 'راندکیوب‌شیلد';
+$labels['show_mailbox_icons'] = 'نمایش آیکون‌های تهدید صندوق پستی';
+$labels['show_tooltips'] = 'نمایش نوتیفیکیشن‌های تهدید';
+$labels['panel_density'] = 'تراکم پنل تحلیل';
+$labels['panel_density_compact'] = 'کوتاه و مختصر';
+$labels['panel_density_detailed'] = 'جزئی';
+$labels['threat_score'] = 'امتیاز تهدید';
+$labels['message_analysis'] = 'ارزیابی تهدید';
+$labels['header_intelligence'] = 'هوش سربرگ';
+$labels['summary'] = 'خلاصه';
+$labels['safe'] = 'ایمن';
+$labels['suspicious'] = 'مظنون';
+$labels['danger'] = 'خطرناک';
+$labels['unknown'] = 'نامشخص';
+$labels['loading'] = 'در حال تجزیه و تحلیل پیام';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'امضای کلید عمومی دانلد';
+$labels['dmarc'] = 'دی‌ام‌ای‌آر‌سی';
+$labels['from_domain'] = 'از دامنه';
+$labels['replyto_domain'] = 'حوزه پاسخ‌گویی';
+$labels['returnpath_domain'] = 'مسیر بازگشت دامنه';
+$labels['origin_ip'] = 'مالکیت فکری اصلی';
+$labels['reverse_dns'] = 'DNS معکوس';
+$labels['geo'] = 'کشور';
+$labels['reputation'] = 'اعتبار';
+$labels['reasons'] = 'دلایل';
+$labels['technical_details'] = 'جزئیات فنی';
+$labels['mismatch_warning'] = 'نامطابقت دامنه تشخیص داده شد';
+$labels['not_available'] = 'در دسترس نیست';
+$labels['cache_purged'] = 'کش RoundcubeShield پاک شد';
+?>

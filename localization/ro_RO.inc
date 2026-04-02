@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Afișați pictogramele de amenințare a căsuței poștale';
+$labels['show_tooltips'] = 'Afișați tooltips-uri pentru amenințări';
+$labels['panel_density'] = 'Densitatea panoului de analiză';
+$labels['panel_density_compact'] = 'Compact';
+$labels['panel_density_detailed'] = 'Detaliate';
+$labels['threat_score'] = 'Punctajul amenințării';
+$labels['message_analysis'] = 'Evaluarea amenințărilor';
+$labels['header_intelligence'] = 'Informații despre antet';
+$labels['summary'] = 'Rezumat';
+$labels['safe'] = 'Siguranță';
+$labels['suspicious'] = 'Suspicios';
+$labels['danger'] = 'Periculoase';
+$labels['unknown'] = 'Necunoscut';
+$labels['loading'] = 'Analizarea mesajului';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Din domeniu';
+$labels['replyto_domain'] = 'Domeniu Reply-To';
+$labels['returnpath_domain'] = 'Domeniul Return-Path';
+$labels['origin_ip'] = 'Origine IP';
+$labels['reverse_dns'] = 'DNS invers';
+$labels['geo'] = 'Țara';
+$labels['reputation'] = 'Reputație';
+$labels['reasons'] = 'Motive';
+$labels['technical_details'] = 'Detalii tehnice';
+$labels['mismatch_warning'] = 'Neconcordanță de domeniu detectată';
+$labels['not_available'] = 'Nu este disponibil';
+$labels['cache_purged'] = 'Cache-ul RoundcubeShield a fost curățat';
+?>

@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'რაუნდკუბშილდი';
+$labels['section_title'] = 'რაუნდკუბშილდი';
+$labels['show_mailbox_icons'] = 'ჩვენება საფოსტო ყუთის საფრთხის ხატულები';
+$labels['show_tooltips'] = 'მუქარის შესახებ ინფორმაციის ჩვენება';
+$labels['panel_density'] = 'ანალიზის პანელის სიმკვრივე';
+$labels['panel_density_compact'] = 'კომპაქტური';
+$labels['panel_density_detailed'] = 'დეტალური';
+$labels['threat_score'] = 'საფრთხის ქულა';
+$labels['message_analysis'] = 'საფრთხის შეფასება';
+$labels['header_intelligence'] = 'სათაურის ინტელექტი';
+$labels['summary'] = 'მოკლე შინაარსი';
+$labels['safe'] = 'უსაფრთხო';
+$labels['suspicious'] = 'ეჭვმიტანილი';
+$labels['danger'] = 'საშიში';
+$labels['unknown'] = 'უცნობი';
+$labels['loading'] = 'შეტყობინების ანალიზი';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'დომენიდან';
+$labels['replyto_domain'] = 'პასუხის ადრესატი დომენი';
+$labels['returnpath_domain'] = 'დაბრუნების პათი დომენი';
+$labels['origin_ip'] = 'წარმოშობის ინტელექტუალური საკუთრება';
+$labels['reverse_dns'] = 'DNS-ის უკუძიება';
+$labels['geo'] = 'ქვეყანა';
+$labels['reputation'] = 'რეპუტაცია';
+$labels['reasons'] = 'მიზეზები';
+$labels['technical_details'] = 'ტექნიკური დეტალები';
+$labels['mismatch_warning'] = 'დომენის შეუსაბამობა აღმოჩენილია';
+$labels['not_available'] = 'ხელმისაწვდომი არ არის';
+$labels['cache_purged'] = 'RoundcubeShield-ის ქეში გასუფთავდა';
+?>

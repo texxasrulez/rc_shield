@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Vis trusselikoner for postkassen';
+$labels['show_tooltips'] = 'Vis verktøytips for trusler';
+$labels['panel_density'] = 'Analysepanelets tetthet';
+$labels['panel_density_compact'] = 'Kompakt';
+$labels['panel_density_detailed'] = 'Detaljert';
+$labels['threat_score'] = 'Trusselscore';
+$labels['message_analysis'] = 'Trusselvurdering';
+$labels['header_intelligence'] = 'Overskriftsinformasjon';
+$labels['summary'] = 'Sammendrag';
+$labels['safe'] = 'Trygt';
+$labels['suspicious'] = 'Mistenkelig';
+$labels['danger'] = 'Farlig';
+$labels['unknown'] = 'Ukjent';
+$labels['loading'] = 'Analyserer meldingen';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Fra domenet';
+$labels['replyto_domain'] = 'Svar-til-domenet';
+$labels['returnpath_domain'] = 'Retur-sti-domene';
+$labels['origin_ip'] = 'Opprinnelse IP';
+$labels['reverse_dns'] = 'Omvendt DNS';
+$labels['geo'] = 'Land';
+$labels['reputation'] = 'Omdømme';
+$labels['reasons'] = 'Årsaker';
+$labels['technical_details'] = 'Tekniske detaljer';
+$labels['mismatch_warning'] = 'Uoverensstemmelse mellom domener oppdaget';
+$labels['not_available'] = 'Ikke tilgjengelig';
+$labels['cache_purged'] = 'RoundcubeShield-bufferen er tømt';
+?>

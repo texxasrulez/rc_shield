@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Dangos eiconau bygythiad y blwch post';
+$labels['show_tooltips'] = 'Dangos awgrymiadau\'r bysellau bygythiad';
+$labels['panel_density'] = 'Dwysedd panel dadansoddi';
+$labels['panel_density_compact'] = 'Cryno';
+$labels['panel_density_detailed'] = 'Manwl';
+$labels['threat_score'] = 'Sgôr Bygythiad';
+$labels['message_analysis'] = 'Asesiad o Fygthiad';
+$labels['header_intelligence'] = 'Deallusrwydd Pennawd';
+$labels['summary'] = 'Crynodeb';
+$labels['safe'] = 'Diogel';
+$labels['suspicious'] = 'Amheus';
+$labels['danger'] = 'Peryglus';
+$labels['unknown'] = 'Anhysbys';
+$labels['loading'] = 'Dadansoddi neges';
+$labels['spf'] = 'Ffactor Amddiffyn Haul';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'O\'r parth';
+$labels['replyto_domain'] = 'Parth Ateb-I';
+$labels['returnpath_domain'] = 'Llwybr-Dychwelyd parth';
+$labels['origin_ip'] = 'Tarddiad IP';
+$labels['reverse_dns'] = 'DNS Gwrthdro';
+$labels['geo'] = 'Gwlad';
+$labels['reputation'] = 'Enw da';
+$labels['reasons'] = 'Rhesymau';
+$labels['technical_details'] = 'Manylion technegol';
+$labels['mismatch_warning'] = 'Canfuwyd anghydweddiad parth';
+$labels['not_available'] = 'Nid yw ar gael';
+$labels['cache_purged'] = 'Glanhawyd storfa RoundcubeShield';
+?>

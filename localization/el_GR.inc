@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'Ασπίδα RoundcubeShield';
+$labels['section_title'] = 'Ασπίδα RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Εμφάνιση εικονιδίων απειλών γραμματοκιβωτίου';
+$labels['show_tooltips'] = 'Εμφάνιση tooltips απειλών';
+$labels['panel_density'] = 'Πυκνότητα πάνελ ανάλυσης';
+$labels['panel_density_compact'] = 'Συμπαγές';
+$labels['panel_density_detailed'] = 'Λεπτομερής';
+$labels['threat_score'] = 'Βαθμολογία απειλής';
+$labels['message_analysis'] = 'Αξιολόγηση απειλών';
+$labels['header_intelligence'] = 'Header Intelligence';
+$labels['summary'] = 'Περίληψη';
+$labels['safe'] = 'Ασφαλές';
+$labels['suspicious'] = 'Ύποπτο';
+$labels['danger'] = 'Επικίνδυνο';
+$labels['unknown'] = 'Άγνωστος';
+$labels['loading'] = 'Ανάλυση μηνύματος';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Από τον τομέα';
+$labels['replyto_domain'] = 'Τομέας Reply-To';
+$labels['returnpath_domain'] = 'Τομέας διαδρομής επιστροφής';
+$labels['origin_ip'] = 'Προέλευση IP';
+$labels['reverse_dns'] = 'Αντίστροφο DNS';
+$labels['geo'] = 'Χώρα';
+$labels['reputation'] = 'Φήμη';
+$labels['reasons'] = 'Λόγοι';
+$labels['technical_details'] = 'Τεχνικές λεπτομέρειες';
+$labels['mismatch_warning'] = 'Εντοπίστηκε αναντιστοιχία τομέα';
+$labels['not_available'] = 'Δεν είναι διαθέσιμο';
+$labels['cache_purged'] = 'Εκκαθάριση της κρυφής μνήμης RoundcubeShield';
+?>

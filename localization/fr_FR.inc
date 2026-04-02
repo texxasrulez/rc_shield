@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'Bouclier Roundcube';
+$labels['section_title'] = 'Bouclier Roundcube';
+$labels['show_mailbox_icons'] = 'Afficher les icônes de menace de la boîte aux lettres';
+$labels['show_tooltips'] = 'Afficher les infobulles sur les menaces';
+$labels['panel_density'] = 'Densité du panel d\'analyse';
+$labels['panel_density_compact'] = 'Compact';
+$labels['panel_density_detailed'] = 'Détaillé';
+$labels['threat_score'] = 'Score de menace';
+$labels['message_analysis'] = 'Évaluation de la menace';
+$labels['header_intelligence'] = 'Intelligence de l\'en-tête';
+$labels['summary'] = 'Résumé';
+$labels['safe'] = 'Sûr';
+$labels['suspicious'] = 'Suspicieux';
+$labels['danger'] = 'Dangereux';
+$labels['unknown'] = 'Inconnu';
+$labels['loading'] = 'Analyse du message';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Du domaine';
+$labels['replyto_domain'] = 'Domaine de réponse';
+$labels['returnpath_domain'] = 'Domaine de retour';
+$labels['origin_ip'] = 'Origine IP';
+$labels['reverse_dns'] = 'DNS inversé';
+$labels['geo'] = 'Pays';
+$labels['reputation'] = 'Réputation';
+$labels['reasons'] = 'Raisons';
+$labels['technical_details'] = 'Détails techniques';
+$labels['mismatch_warning'] = 'Inadéquation des domaines détectée';
+$labels['not_available'] = 'Non disponible';
+$labels['cache_purged'] = 'Purge du cache de RoundcubeShield';
+?>

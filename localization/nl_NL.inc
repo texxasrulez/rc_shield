@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Pictogrammen voor bedreigingen van mailbox weergeven';
+$labels['show_tooltips'] = 'Toon tooltips bedreigingen';
+$labels['panel_density'] = 'Dichtheid analysepanel';
+$labels['panel_density_compact'] = 'Compact';
+$labels['panel_density_detailed'] = 'Gedetailleerd';
+$labels['threat_score'] = 'Bedreigingsscore';
+$labels['message_analysis'] = 'Dreigingsevaluatie';
+$labels['header_intelligence'] = 'Inlichtingen kop';
+$labels['summary'] = 'Samenvatting';
+$labels['safe'] = 'Veilig';
+$labels['suspicious'] = 'Verdachte';
+$labels['danger'] = 'Gevaarlijk';
+$labels['unknown'] = 'Onbekend';
+$labels['loading'] = 'Bericht analyseren';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Van domein';
+$labels['replyto_domain'] = 'Antwoord domein';
+$labels['returnpath_domain'] = 'Return-Path domein';
+$labels['origin_ip'] = 'Oorsprong IP';
+$labels['reverse_dns'] = 'Omgekeerde DNS';
+$labels['geo'] = 'Land';
+$labels['reputation'] = 'Reputatie';
+$labels['reasons'] = 'Redenen';
+$labels['technical_details'] = 'Technische details';
+$labels['mismatch_warning'] = 'Domeinfout gedetecteerd';
+$labels['not_available'] = 'Niet beschikbaar';
+$labels['cache_purged'] = 'RoundcubeShield cache gezuiverd';
+?>

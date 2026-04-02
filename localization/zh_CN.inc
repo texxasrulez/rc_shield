@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = '圆立方体防护罩';
+$labels['section_title'] = '圆立方体防护罩';
+$labels['show_mailbox_icons'] = '显示邮箱威胁图标';
+$labels['show_tooltips'] = '显示威胁工具提示';
+$labels['panel_density'] = '分析板密度';
+$labels['panel_density_compact'] = '紧凑型';
+$labels['panel_density_detailed'] = '详细';
+$labels['threat_score'] = '威胁得分';
+$labels['message_analysis'] = '威胁评估';
+$labels['header_intelligence'] = '标题情报';
+$labels['summary'] = '摘要';
+$labels['safe'] = '安全';
+$labels['suspicious'] = '可疑';
+$labels['danger'] = '危险';
+$labels['unknown'] = '未知';
+$labels['loading'] = '分析信息';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = '来自领域';
+$labels['replyto_domain'] = '回复域名';
+$labels['returnpath_domain'] = '返回路径域';
+$labels['origin_ip'] = '原产地 IP';
+$labels['reverse_dns'] = '反向 DNS';
+$labels['geo'] = '国家';
+$labels['reputation'] = '声誉';
+$labels['reasons'] = '原因';
+$labels['technical_details'] = '技术细节';
+$labels['mismatch_warning'] = '检测到域不匹配';
+$labels['not_available'] = '不详';
+$labels['cache_purged'] = '已清除 RoundcubeShield 缓存';
+?>

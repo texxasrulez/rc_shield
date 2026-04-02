@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Rodyti pašto dėžutės grėsmės piktogramas';
+$labels['show_tooltips'] = 'Rodyti grėsmės įrankių užrašus';
+$labels['panel_density'] = 'Analizės skydo tankis';
+$labels['panel_density_compact'] = 'Kompaktiškas';
+$labels['panel_density_detailed'] = 'Išsami informacija';
+$labels['threat_score'] = 'Grėsmės balas';
+$labels['message_analysis'] = 'Grėsmių vertinimas';
+$labels['header_intelligence'] = 'Antraštės žvalgyba';
+$labels['summary'] = 'Santrauka';
+$labels['safe'] = 'Saugus';
+$labels['suspicious'] = 'Įtarimą keliantis';
+$labels['danger'] = 'Pavojinga';
+$labels['unknown'] = 'Nežinomas';
+$labels['loading'] = 'Pranešimo analizė';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Iš domeno';
+$labels['replyto_domain'] = 'Atsakyti į domeną';
+$labels['returnpath_domain'] = 'Grąžinimo kelio domenas';
+$labels['origin_ip'] = 'Kilmės IP';
+$labels['reverse_dns'] = 'Atvirkštinis DNS';
+$labels['geo'] = 'Šalis';
+$labels['reputation'] = 'Reputacija';
+$labels['reasons'] = 'Priežastys';
+$labels['technical_details'] = 'Techninė informacija';
+$labels['mismatch_warning'] = 'Aptiktas domeno nesutapimas';
+$labels['not_available'] = 'Nėra';
+$labels['cache_purged'] = 'RoundcubeShield talpykla išvalyta';
+?>

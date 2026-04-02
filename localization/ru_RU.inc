@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Показывать значки угроз в почтовом ящике';
+$labels['show_tooltips'] = 'Показывать всплывающие подсказки об угрозах';
+$labels['panel_density'] = 'Плотность панели анализа';
+$labels['panel_density_compact'] = 'Компактный';
+$labels['panel_density_detailed'] = 'Подробно';
+$labels['threat_score'] = 'Балл угрозы';
+$labels['message_analysis'] = 'Оценка угрозы';
+$labels['header_intelligence'] = 'Интеллект заголовков';
+$labels['summary'] = 'Резюме';
+$labels['safe'] = 'Безопасный';
+$labels['suspicious'] = 'Подозрительный';
+$labels['danger'] = 'Опасный';
+$labels['unknown'] = 'Неизвестный';
+$labels['loading'] = 'Анализ сообщения';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Из домена';
+$labels['replyto_domain'] = 'Reply-To домен';
+$labels['returnpath_domain'] = 'Домен обратного пути';
+$labels['origin_ip'] = 'Происхождение IP';
+$labels['reverse_dns'] = 'Обратный DNS';
+$labels['geo'] = 'Страна';
+$labels['reputation'] = 'Репутация';
+$labels['reasons'] = 'Причины';
+$labels['technical_details'] = 'Технические детали';
+$labels['mismatch_warning'] = 'Обнаружено несоответствие доменов';
+$labels['not_available'] = 'Нет в наличии';
+$labels['cache_purged'] = 'Кэш RoundcubeShield очищен';
+?>

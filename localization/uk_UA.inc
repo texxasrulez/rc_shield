@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Показувати значки загроз у поштових скриньках';
+$labels['show_tooltips'] = 'Показати підказки про загрози';
+$labels['panel_density'] = 'Щільність панелі аналізу';
+$labels['panel_density_compact'] = 'Компактний';
+$labels['panel_density_detailed'] = 'Детально';
+$labels['threat_score'] = 'Оцінка загрози';
+$labels['message_analysis'] = 'Оцінка загроз';
+$labels['header_intelligence'] = 'Розвідка заголовка';
+$labels['summary'] = 'Підсумок';
+$labels['safe'] = 'Безпечний';
+$labels['suspicious'] = 'Підозріло';
+$labels['danger'] = 'Небезпечно';
+$labels['unknown'] = 'Невідомо';
+$labels['loading'] = 'Аналіз повідомлення';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'ДМАРК';
+$labels['from_domain'] = 'З домену';
+$labels['replyto_domain'] = 'Відповісти на домен';
+$labels['returnpath_domain'] = 'Домен Return-Path';
+$labels['origin_ip'] = 'IP-адреса походження';
+$labels['reverse_dns'] = 'Зворотний DNS';
+$labels['geo'] = 'Країна';
+$labels['reputation'] = 'Репутація';
+$labels['reasons'] = 'Причини';
+$labels['technical_details'] = 'Технічні деталі';
+$labels['mismatch_warning'] = 'Виявлено невідповідність домену';
+$labels['not_available'] = 'Немає в наявності';
+$labels['cache_purged'] = 'Кеш RoundcubeShield очищено';
+?>

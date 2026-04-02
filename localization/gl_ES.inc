@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Amosar iconas de ameaza do buzón';
+$labels['show_tooltips'] = 'Amosar as mensaxes de axuda das ameazas';
+$labels['panel_density'] = 'Densidade do panel de análise';
+$labels['panel_density_compact'] = 'Compacto';
+$labels['panel_density_detailed'] = 'Detallado';
+$labels['threat_score'] = 'Puntuación de ameaza';
+$labels['message_analysis'] = 'Avaliación de ameazas';
+$labels['header_intelligence'] = 'Intelixencia de cabeceira';
+$labels['summary'] = 'Resumo';
+$labels['safe'] = 'Seguro';
+$labels['suspicious'] = 'Sospeitoso';
+$labels['danger'] = 'Perigoso';
+$labels['unknown'] = 'Descoñecido';
+$labels['loading'] = 'Analizando mensaxe';
+$labels['spf'] = 'FPS';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Do dominio';
+$labels['replyto_domain'] = 'Dominio de resposta';
+$labels['returnpath_domain'] = 'Dominio de camiño de devolución';
+$labels['origin_ip'] = 'Orixe IP';
+$labels['reverse_dns'] = 'DNS inverso';
+$labels['geo'] = 'País';
+$labels['reputation'] = 'Reputación';
+$labels['reasons'] = 'Razóns';
+$labels['technical_details'] = 'Detalles técnicos';
+$labels['mismatch_warning'] = 'Detectouse unha discrepancia de dominio';
+$labels['not_available'] = 'Non dispoñible';
+$labels['cache_purged'] = 'Caché de RoundcubeShield purgado';
+?>

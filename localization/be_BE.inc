@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'Раўндкубшэльды';
+$labels['section_title'] = 'Раўндкубшэльды';
+$labels['show_mailbox_icons'] = 'Паказаць значкі пагроз у паштовай скрыні';
+$labels['show_tooltips'] = 'Паказаць падказкі па пагрозах';
+$labels['panel_density'] = 'Шчыльнасць панэлі аналізу';
+$labels['panel_density_compact'] = 'Кампактны';
+$labels['panel_density_detailed'] = 'Падрабязна';
+$labels['threat_score'] = 'Ацэнка пагрозы';
+$labels['message_analysis'] = 'Ацэнка пагрозы';
+$labels['header_intelligence'] = 'Разумная загаловак';
+$labels['summary'] = 'Кароткі змест';
+$labels['safe'] = 'Бяспечна';
+$labels['suspicious'] = 'Падазроны';
+$labels['danger'] = 'Небяспечна';
+$labels['unknown'] = 'Невядома';
+$labels['loading'] = 'Аналізуецца паведамленне';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'ДКІМ';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'З дамена';
+$labels['replyto_domain'] = 'Адказаць дамена';
+$labels['returnpath_domain'] = 'Дамен зваротнага шляху';
+$labels['origin_ip'] = 'Паходжанне інтэлектуальнай уласнасці';
+$labels['reverse_dns'] = 'Адваротны DNS';
+$labels['geo'] = 'Краіна';
+$labels['reputation'] = 'Рэпутацыя';
+$labels['reasons'] = 'Прычыны';
+$labels['technical_details'] = 'Тэхнічныя дэталі';
+$labels['mismatch_warning'] = 'Выяўлена неадпаведнасць дамена';
+$labels['not_available'] = 'Недаступна';
+$labels['cache_purged'] = 'Кеш RoundcubeShield ачышчаны';
+?>

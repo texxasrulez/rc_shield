@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'Rund kubSköld';
+$labels['section_title'] = 'Rund kubSköld';
+$labels['show_mailbox_icons'] = 'Visa hotikoner för brevlådan';
+$labels['show_tooltips'] = 'Visa verktygstips för hot';
+$labels['panel_density'] = 'Analys paneldensitet';
+$labels['panel_density_compact'] = 'Kompakt';
+$labels['panel_density_detailed'] = 'Detaljerad';
+$labels['threat_score'] = 'Hotbildspoäng';
+$labels['message_analysis'] = 'Hotbedömning';
+$labels['header_intelligence'] = 'Information om rubriker';
+$labels['summary'] = 'Sammanfattning';
+$labels['safe'] = 'Säker';
+$labels['suspicious'] = 'Misstänkt';
+$labels['danger'] = 'Farlig';
+$labels['unknown'] = 'Okänd';
+$labels['loading'] = 'Analysera meddelandet';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Från domän';
+$labels['replyto_domain'] = 'Domän för svar till';
+$labels['returnpath_domain'] = 'Domän för returväg';
+$labels['origin_ip'] = 'Ursprung IP';
+$labels['reverse_dns'] = 'Omvänd DNS';
+$labels['geo'] = 'Land';
+$labels['reputation'] = 'Rykte';
+$labels['reasons'] = 'Anledningar';
+$labels['technical_details'] = 'Tekniska detaljer';
+$labels['mismatch_warning'] = 'Felaktig domänmatchning upptäckt';
+$labels['not_available'] = 'Ej tillgänglig';
+$labels['cache_purged'] = 'RoundcubeShield-cache rensad';
+?>

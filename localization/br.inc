@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'Gwarez Roundcube';
+$labels['section_title'] = 'Gwarez Roundcube';
+$labels['show_mailbox_icons'] = 'Diskouez ikonoù gourdrouz ar boest-lizhiri';
+$labels['show_tooltips'] = 'Diskouez sikourioù ar gourc\'hemennoù';
+$labels['panel_density'] = 'Stankter panell dielfennadur';
+$labels['panel_density_compact'] = 'Stank';
+$labels['panel_density_detailed'] = 'Munut';
+$labels['threat_score'] = 'Skor ar gourdrouz';
+$labels['message_analysis'] = 'Priziadenn ar gourdrouzoù';
+$labels['header_intelligence'] = 'Poell an Titl';
+$labels['summary'] = 'Diverradenn';
+$labels['safe'] = 'Diogel';
+$labels['suspicious'] = 'Diskredus';
+$labels['danger'] = 'Dañjerus';
+$labels['unknown'] = 'Dianav';
+$labels['loading'] = 'O dielfennañ ar gemennadenn';
+$labels['spf'] = 'Faktor gwareziñ diouzh an heol';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Eus an domani';
+$labels['replyto_domain'] = 'Domani da respont';
+$labels['returnpath_domain'] = 'Domani an hent-distro';
+$labels['origin_ip'] = 'Orin IP';
+$labels['reverse_dns'] = 'DNS gil';
+$labels['geo'] = 'Bro';
+$labels['reputation'] = 'Brud';
+$labels['reasons'] = 'Abegoù';
+$labels['technical_details'] = 'Munudoù teknikel';
+$labels['mismatch_warning'] = 'Dizunvaniezh domani detektet';
+$labels['not_available'] = 'N\'eo ket hegerz';
+$labels['cache_purged'] = 'Skoazell Roundcube : goullonderet ar keish';
+?>

@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'Perisai Kubus Bulat';
+$labels['section_title'] = 'Perisai Kubus Bulat';
+$labels['show_mailbox_icons'] = 'Menampilkan ikon ancaman kotak surat';
+$labels['show_tooltips'] = 'Menampilkan keterangan alat ancaman';
+$labels['panel_density'] = 'Kepadatan panel analisis';
+$labels['panel_density_compact'] = 'Ringkas';
+$labels['panel_density_detailed'] = 'Detail';
+$labels['threat_score'] = 'Skor Ancaman';
+$labels['message_analysis'] = 'Penilaian Ancaman';
+$labels['header_intelligence'] = 'Intelijen Tajuk';
+$labels['summary'] = 'Ringkasan';
+$labels['safe'] = 'Aman';
+$labels['suspicious'] = 'Mencurigakan';
+$labels['danger'] = 'Berbahaya';
+$labels['unknown'] = 'Tidak diketahui';
+$labels['loading'] = 'Menganalisis pesan';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Dari domain';
+$labels['replyto_domain'] = 'Membalas ke domain';
+$labels['returnpath_domain'] = 'Domain Jalur Pengembalian';
+$labels['origin_ip'] = 'IP Asal';
+$labels['reverse_dns'] = 'Membalikkan DNS';
+$labels['geo'] = 'Negara';
+$labels['reputation'] = 'Reputasi';
+$labels['reasons'] = 'Alasan';
+$labels['technical_details'] = 'Detail teknis';
+$labels['mismatch_warning'] = 'Ketidakcocokan domain terdeteksi';
+$labels['not_available'] = 'Tidak tersedia';
+$labels['cache_purged'] = 'Cache RoundcubeShield dihapus';
+?>

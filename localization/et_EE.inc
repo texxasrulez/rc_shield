@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Näita postkasti ohu ikoonid';
+$labels['show_tooltips'] = 'Näita ohu tööriistade näpunäiteid';
+$labels['panel_density'] = 'Analüüsipaneeli tihedus';
+$labels['panel_density_compact'] = 'Kompaktne';
+$labels['panel_density_detailed'] = 'Üksikasjalik';
+$labels['threat_score'] = 'Ohtude punktisumma';
+$labels['message_analysis'] = 'Ohu hindamine';
+$labels['header_intelligence'] = 'Pealkirjade intelligentsus';
+$labels['summary'] = 'Kokkuvõte';
+$labels['safe'] = 'Turvaline';
+$labels['suspicious'] = 'Kahtlane';
+$labels['danger'] = 'Ohtlik';
+$labels['unknown'] = 'Teadmata';
+$labels['loading'] = 'Sõnumi analüüsimine';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Alates domeenist';
+$labels['replyto_domain'] = 'Reply-To domeen';
+$labels['returnpath_domain'] = 'Return-Path domeen';
+$labels['origin_ip'] = 'Päritolu IP';
+$labels['reverse_dns'] = 'Pööratud DNS';
+$labels['geo'] = 'Riik';
+$labels['reputation'] = 'Maine';
+$labels['reasons'] = 'Põhjused';
+$labels['technical_details'] = 'Tehnilised üksikasjad';
+$labels['mismatch_warning'] = 'Avastatud domeeni mittevastavus';
+$labels['not_available'] = 'Ei ole saadaval';
+$labels['cache_purged'] = 'RoundcubeShieldi vahemälu puhastatud';
+?>

@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'Rondaŝildeto';
+$labels['section_title'] = 'Rondaŝildeto';
+$labels['show_mailbox_icons'] = 'Montri minacajn ikonojn de la poŝtkesto';
+$labels['show_tooltips'] = 'Montru minacajn helpotekstojn';
+$labels['panel_density'] = 'Denseco de analiza panelo';
+$labels['panel_density_compact'] = 'Kompakta';
+$labels['panel_density_detailed'] = 'Detaligita';
+$labels['threat_score'] = 'Minacpoento';
+$labels['message_analysis'] = 'Minac-taksado';
+$labels['header_intelligence'] = 'Titola Inteligenteco';
+$labels['summary'] = 'Resumo';
+$labels['safe'] = 'Sekura';
+$labels['suspicious'] = 'Suspektinda';
+$labels['danger'] = 'Dangera';
+$labels['unknown'] = 'Nekonata';
+$labels['loading'] = 'Analizante mesaĝon';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'El domajno';
+$labels['replyto_domain'] = 'Respondu al domajno';
+$labels['returnpath_domain'] = 'Responda vojo: domajno';
+$labels['origin_ip'] = 'Origina IP-rajto';
+$labels['reverse_dns'] = 'Inversa DNS';
+$labels['geo'] = 'Lando';
+$labels['reputation'] = 'Reputacio';
+$labels['reasons'] = 'Kialoj';
+$labels['technical_details'] = 'Teknikaj detaloj';
+$labels['mismatch_warning'] = 'Detektita domajna malkongruo';
+$labels['not_available'] = 'Ne disponebla';
+$labels['cache_purged'] = 'La kaŝmemoro de RoundcubeShield estas purigita.';
+?>

@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Weise Bedrohung-Ikonen am Mailbox';
+$labels['show_tooltips'] = 'Bedrohungs-Tooltips weisen';
+$labels['panel_density'] = 'Dicht vum Analysepanel';
+$labels['panel_density_compact'] = 'Kompakt';
+$labels['panel_density_detailed'] = 'Detailéiert';
+$labels['threat_score'] = 'Bedrohungsscore';
+$labels['message_analysis'] = 'Bedreeungsbewäertung';
+$labels['header_intelligence'] = 'Kapp-Intelligenz';
+$labels['summary'] = 'Zesummefaassung';
+$labels['safe'] = 'Sécher';
+$labels['suspicious'] = 'Verdächteg';
+$labels['danger'] = 'Gefaerlech';
+$labels['unknown'] = 'Onbekannt';
+$labels['loading'] = 'Botschaft analyséieren';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Aus dem Beräich';
+$labels['replyto_domain'] = 'Reply-To-Domain';
+$labels['returnpath_domain'] = 'Zréckwee-Domän';
+$labels['origin_ip'] = 'Ursprong IP';
+$labels['reverse_dns'] = 'Inverse DNS';
+$labels['geo'] = 'Land';
+$labels['reputation'] = 'Gutt Numm';
+$labels['reasons'] = 'Grënn';
+$labels['technical_details'] = 'Technesch Detailer';
+$labels['mismatch_warning'] = 'Domain-Onklöcklechkeet erkannt';
+$labels['not_available'] = 'Net verfügbar';
+$labels['cache_purged'] = 'RoundcubeShield-Cache geläscht';
+?>

@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'Ciorcalchumhdach';
+$labels['section_title'] = 'Ciorcalchumhdach';
+$labels['show_mailbox_icons'] = 'Taispeáin deilbhíní bagartha bosca poist';
+$labels['show_tooltips'] = 'Taispeáin leideanna bagartha';
+$labels['panel_density'] = 'Dlús an phainéil anailíse';
+$labels['panel_density_compact'] = 'Dlúth';
+$labels['panel_density_detailed'] = 'Mion';
+$labels['threat_score'] = 'Scór Bagartha';
+$labels['message_analysis'] = 'Measúnú Bagartha';
+$labels['header_intelligence'] = 'Faisnéis Ceanntásc';
+$labels['summary'] = 'Achoimre';
+$labels['safe'] = 'Sábháilte';
+$labels['suspicious'] = 'Amhrasach';
+$labels['danger'] = 'Contúirteach';
+$labels['unknown'] = 'Neamh-aithnid';
+$labels['loading'] = 'Ag anailísiú teachtaireachta';
+$labels['spf'] = 'Ufp';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Ó dhomhan';
+$labels['replyto_domain'] = 'Réimse Freagra chuig';
+$labels['returnpath_domain'] = 'Fearann an Chonair Filleadh';
+$labels['origin_ip'] = 'Bun-IP';
+$labels['reverse_dns'] = 'DNS Inbhéartach';
+$labels['geo'] = 'Tír';
+$labels['reputation'] = 'Cáil';
+$labels['reasons'] = 'Cúiseanna';
+$labels['technical_details'] = 'Sonraí teicniúla';
+$labels['mismatch_warning'] = 'Míchomhoiriúnú fearainn braite';
+$labels['not_available'] = 'Níl sé ar fáil';
+$labels['cache_purged'] = 'Glanadh caochán RoundcubeShield';
+?>

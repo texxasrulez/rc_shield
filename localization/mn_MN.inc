@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'РaундкүбШилд';
+$labels['section_title'] = 'РaундкүбШилд';
+$labels['show_mailbox_icons'] = 'Имэйл хайрцагны аюулын дүрс тэмдэглэгээг харуулах';
+$labels['show_tooltips'] = 'Заналхийлэлийн туслах мэдээллийн хайрцгийг харуулах';
+$labels['panel_density'] = 'Дүн шинжилгээний самбарын нягтрал';
+$labels['panel_density_compact'] = 'Багтаамж багатай';
+$labels['panel_density_detailed'] = 'Дэлгэрэнгүй';
+$labels['threat_score'] = 'Аюулын оноо';
+$labels['message_analysis'] = 'Аюулын үнэлгээ';
+$labels['header_intelligence'] = 'Тойм оюун ухаан';
+$labels['summary'] = 'Товч агуулга';
+$labels['safe'] = 'Аюулгүй';
+$labels['suspicious'] = 'Сэжигтэй';
+$labels['danger'] = 'Аюултай';
+$labels['unknown'] = 'Тодорхойгүй';
+$labels['loading'] = 'Зурвасыг шинжлэх';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Талбараас';
+$labels['replyto_domain'] = 'Хариу илгээх домэйн';
+$labels['returnpath_domain'] = 'Буцах зам домэйн';
+$labels['origin_ip'] = 'Гарал IP';
+$labels['reverse_dns'] = 'Урагш бус DNS';
+$labels['geo'] = 'Улс';
+$labels['reputation'] = 'Нэр хүнд';
+$labels['reasons'] = 'Шалтгаанууд';
+$labels['technical_details'] = 'Техникийн дэлгэрэнгүй мэдээлэл';
+$labels['mismatch_warning'] = 'Домен таарахгүй байдал илэрлээ';
+$labels['not_available'] = 'Боломжгүй';
+$labels['cache_purged'] = 'RoundcubeShield кэш цэвэрлэгдлээ';
+?>

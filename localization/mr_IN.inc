@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'राउंडक्यूबशील्ड';
+$labels['section_title'] = 'राउंडक्यूबशील्ड';
+$labels['show_mailbox_icons'] = 'मेलबॉक्स धोका चिन्हे दाखवा';
+$labels['show_tooltips'] = 'धमकी टूलटिप्स दाखवा';
+$labels['panel_density'] = 'विश्लेषण पॅनेल घनता';
+$labels['panel_density_compact'] = 'संक्षिप्त';
+$labels['panel_density_detailed'] = 'सविस्तर';
+$labels['threat_score'] = 'धोका गुणांक';
+$labels['message_analysis'] = 'धोका मूल्यांकन';
+$labels['header_intelligence'] = 'शीर्ष बुद्धिमत्ता';
+$labels['summary'] = 'सारांश';
+$labels['safe'] = 'सुरक्षित';
+$labels['suspicious'] = 'शक्य';
+$labels['danger'] = 'धोकादायक';
+$labels['unknown'] = 'अज्ञात';
+$labels['loading'] = 'संदेशचे विश्लेषण';
+$labels['spf'] = 'एसपीएफ';
+$labels['dkim'] = 'डीकेआयएम';
+$labels['dmarc'] = 'डीएमएआरसी';
+$labels['from_domain'] = 'डोमेनपासून';
+$labels['replyto_domain'] = 'प्रतिसाद-करण्यासाठीचे डोमेन';
+$labels['returnpath_domain'] = 'रिटर्न-पाथ डोमेन';
+$labels['origin_ip'] = 'मूळ बौद्धिक संपदा';
+$labels['reverse_dns'] = 'उलट DNS';
+$labels['geo'] = 'देश';
+$labels['reputation'] = 'प्रतिष्ठा';
+$labels['reasons'] = 'कारणे';
+$labels['technical_details'] = 'तांत्रिक तपशील';
+$labels['mismatch_warning'] = 'डोमेन विसंगती आढळली';
+$labels['not_available'] = 'उपलब्ध नाही';
+$labels['cache_purged'] = 'RoundcubeShield कॅश पुरीषित';
+?>

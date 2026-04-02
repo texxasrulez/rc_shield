@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'راونډکیوب شیلډ';
+$labels['section_title'] = 'راونډکیوب شیلډ';
+$labels['show_mailbox_icons'] = 'د بکس د ګواښ نښې وښایاست';
+$labels['show_tooltips'] = 'د ګواښ ټولټیپس وښایاست';
+$labels['panel_density'] = 'د تحلیل پینل کثافت';
+$labels['panel_density_compact'] = 'لنډ';
+$labels['panel_density_detailed'] = 'تفصیلي';
+$labels['threat_score'] = 'ګواښ نمره';
+$labels['message_analysis'] = 'د ګواښ ارزونه';
+$labels['header_intelligence'] = 'د سرلیک ځیرکتیا';
+$labels['summary'] = 'لنډیز';
+$labels['safe'] = 'خوندي';
+$labels['suspicious'] = 'شکمن';
+$labels['danger'] = 'خطرناک';
+$labels['unknown'] = 'نامعلوم';
+$labels['loading'] = 'پیغام تحلیل کیږي';
+$labels['spf'] = 'د آفتاب ضد کریم';
+$labels['dkim'] = 'ډي کې آی ایم';
+$labels['dmarc'] = 'ډیمارک';
+$labels['from_domain'] = 'له ډومین څخه';
+$labels['replyto_domain'] = 'ځواب ورته ډومین';
+$labels['returnpath_domain'] = 'د بېرته راستنېدو لاره ډومېن';
+$labels['origin_ip'] = 'اصلي ملکیتي حق';
+$labels['reverse_dns'] = 'څرګند DNS';
+$labels['geo'] = 'هېواد';
+$labels['reputation'] = 'شهرت';
+$labels['reasons'] = 'دلیلونه';
+$labels['technical_details'] = 'تخنیکي جزئیات';
+$labels['mismatch_warning'] = 'د ډومین توپیر موندل شوی';
+$labels['not_available'] = 'د لاسرسي وړ نه دی';
+$labels['cache_purged'] = 'رائونډکیوب شیلډ کیش پاک شو';
+?>

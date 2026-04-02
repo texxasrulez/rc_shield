@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'ラウンドキューブシールド';
+$labels['section_title'] = 'ラウンドキューブシールド';
+$labels['show_mailbox_icons'] = 'メールボックスの脅威アイコンを表示する';
+$labels['show_tooltips'] = '脅威のツールチップを表示する';
+$labels['panel_density'] = '分析パネルの密度';
+$labels['panel_density_compact'] = 'コンパクト';
+$labels['panel_density_detailed'] = '詳細';
+$labels['threat_score'] = '脅威スコア';
+$labels['message_analysis'] = '脅威の評価';
+$labels['header_intelligence'] = 'ヘッダー・インテリジェンス';
+$labels['summary'] = '概要';
+$labels['safe'] = '安全';
+$labels['suspicious'] = '疑わしい';
+$labels['danger'] = '危険';
+$labels['unknown'] = '不明';
+$labels['loading'] = 'メッセージの分析';
+$labels['spf'] = '使用済み燃料プール';
+$labels['dkim'] = 'ディーケイム';
+$labels['dmarc'] = 'ディーエムエーアールシー';
+$labels['from_domain'] = 'ドメインから';
+$labels['replyto_domain'] = '返信先ドメイン';
+$labels['returnpath_domain'] = 'リターンパス・ドメイン';
+$labels['origin_ip'] = 'オリジンIP';
+$labels['reverse_dns'] = 'リバースDNS';
+$labels['geo'] = '国名';
+$labels['reputation'] = '評判';
+$labels['reasons'] = '理由';
+$labels['technical_details'] = '技術的詳細';
+$labels['mismatch_warning'] = 'ドメインの不一致が検出された';
+$labels['not_available'] = '入手不可';
+$labels['cache_purged'] = 'RoundcubeShieldキャッシュのパージ';
+?>

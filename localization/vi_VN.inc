@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Hiển thị biểu tượng cảnh báo trong hộp thư';
+$labels['show_tooltips'] = 'Hiển thị chú thích về mối đe dọa';
+$labels['panel_density'] = 'Mật độ của bảng phân tích';
+$labels['panel_density_compact'] = 'Nhỏ gọn';
+$labels['panel_density_detailed'] = 'Chi tiết';
+$labels['threat_score'] = 'Điểm đánh giá mức độ đe dọa';
+$labels['message_analysis'] = 'Đánh giá mối đe dọa';
+$labels['header_intelligence'] = 'Trí tuệ tiêu đề';
+$labels['summary'] = 'Tóm tắt';
+$labels['safe'] = 'An toàn';
+$labels['suspicious'] = 'Đáng ngờ';
+$labels['danger'] = 'Nguy hiểm';
+$labels['unknown'] = 'Không rõ';
+$labels['loading'] = 'Phân tích tin nhắn';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Từ tên miền';
+$labels['replyto_domain'] = 'Miền Reply-To';
+$labels['returnpath_domain'] = 'Miền Return-Path';
+$labels['origin_ip'] = 'Địa chỉ IP nguồn';
+$labels['reverse_dns'] = 'DNS ngược';
+$labels['geo'] = 'Quốc gia';
+$labels['reputation'] = 'Danh tiếng';
+$labels['reasons'] = 'Lý do';
+$labels['technical_details'] = 'Chi tiết kỹ thuật';
+$labels['mismatch_warning'] = 'Phát hiện sự không khớp tên miền';
+$labels['not_available'] = 'Không có sẵn';
+$labels['cache_purged'] = 'Bộ nhớ đệm RoundcubeShield đã được xóa';
+?>

@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'แสดงไอคอนภัยคุกคามในกล่องจดหมาย';
+$labels['show_tooltips'] = 'แสดงเครื่องมือชี้แจงภัยคุกคาม';
+$labels['panel_density'] = 'ความหนาแน่นของแผงวิเคราะห์';
+$labels['panel_density_compact'] = 'กะทัดรัด';
+$labels['panel_density_detailed'] = 'ละเอียด';
+$labels['threat_score'] = 'คะแนนภัยคุกคาม';
+$labels['message_analysis'] = 'การประเมินภัยคุกคาม';
+$labels['header_intelligence'] = 'ข้อมูลส่วนหัว';
+$labels['summary'] = 'สรุป';
+$labels['safe'] = 'ปลอดภัย';
+$labels['suspicious'] = 'น่าสงสัย';
+$labels['danger'] = 'อันตราย';
+$labels['unknown'] = 'ไม่ทราบ';
+$labels['loading'] = 'วิเคราะห์ข้อความ';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'จากโดเมน';
+$labels['replyto_domain'] = 'โดเมนตอบกลับ';
+$labels['returnpath_domain'] = 'โดเมน Return-Path';
+$labels['origin_ip'] = 'ต้นกำเนิด IP';
+$labels['reverse_dns'] = 'รีเวิร์ส DNS';
+$labels['geo'] = 'ประเทศ';
+$labels['reputation'] = 'ชื่อเสียง';
+$labels['reasons'] = 'เหตุผล';
+$labels['technical_details'] = 'รายละเอียดทางเทคนิค';
+$labels['mismatch_warning'] = 'ตรวจพบความไม่ตรงกันของโดเมน';
+$labels['not_available'] = 'ไม่มีให้บริการ';
+$labels['cache_purged'] = 'ล้างแคช RoundcubeShield';
+?>

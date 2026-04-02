@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = '라운드큐브쉴드';
+$labels['section_title'] = '라운드큐브쉴드';
+$labels['show_mailbox_icons'] = '사서함 위협 아이콘 표시';
+$labels['show_tooltips'] = '위협 도구 설명 표시';
+$labels['panel_density'] = '분석 패널 밀도';
+$labels['panel_density_compact'] = '컴팩트';
+$labels['panel_density_detailed'] = '상세';
+$labels['threat_score'] = '위협 점수';
+$labels['message_analysis'] = '위협 평가';
+$labels['header_intelligence'] = '헤더 인텔리전스';
+$labels['summary'] = '요약';
+$labels['safe'] = '안전';
+$labels['suspicious'] = '의심스러운';
+$labels['danger'] = '위험';
+$labels['unknown'] = '알 수 없음';
+$labels['loading'] = '메시지 분석';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = '도메인에서';
+$labels['replyto_domain'] = '회신-발신 도메인';
+$labels['returnpath_domain'] = '반환 경로 도메인';
+$labels['origin_ip'] = '오리진 IP';
+$labels['reverse_dns'] = '역방향 DNS';
+$labels['geo'] = '국가';
+$labels['reputation'] = '평판';
+$labels['reasons'] = '이유';
+$labels['technical_details'] = '기술 세부 정보';
+$labels['mismatch_warning'] = '도메인 불일치 감지';
+$labels['not_available'] = '사용 불가';
+$labels['cache_purged'] = '라운드큐브쉴드 캐시 지워짐';
+?>

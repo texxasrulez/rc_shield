@@ -1,0 +1,13 @@
+:root {
+  --rcs-safe: #1f7a3d;
+  --rcs-suspicious: #9a6700;
+  --rcs-danger: #b42318;
+  --rcs-unknown: #667085;
+  --rcs-panel-bg: rgba(255, 255, 255, 0.92);
+  --rcs-panel-border: rgba(16, 24, 40, 0.12);
+  --rcs-panel-muted: #475467;
+  --rcs-meter-bg: rgba(16, 24, 40, 0.08);
+  --rcs-shadow: 0 8px 20px rgba(16, 24, 40, 0.08);
+  --rcs-badge-bg: rgba(255, 255, 255, 0.92);
+  --rcs-badge-shadow: 0 2px 6px rgba(16, 24, 40, 0.08);
+}

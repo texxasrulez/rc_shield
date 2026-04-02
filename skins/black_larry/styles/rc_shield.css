@@ -1,0 +1,34 @@
+@import "../../../styles/variables.css";
+@import "../../../styles/common.css";
+
+:root {
+  --rcs-panel-text: #101828;
+  --rcs-badge-text: #fff;
+  --rcs-panel-bg: rgba(31, 36, 42, 0.98);
+  --rcs-panel-border: rgba(181, 190, 199, 0.22);
+  --rcs-panel-text: #eef2f6;
+  --rcs-panel-muted: #c2cbd4;
+  --rcs-meter-bg: rgba(255, 255, 255, 0.1);
+  --rcs-badge-bg: transparent;
+  --rcs-shadow: 0 16px 32px rgba(0, 0, 0, 0.34);
+  --rcs-badge-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+}
+
+.rcs-grid div,
+.rcs-details pre {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+#rcmrowrc_shield td.section {
+  background-image: url("../images/rcs_menu.svg");
+  background-repeat: no-repeat !important;
+  background-position: 6px center !important;
+  background-size: 20px 20px !important;
+  padding-left: 36px; /* ensure text doesn't overlap the icon */
+}
+
+#rcmrowrc_shield.selected td.section,
+#rcmrowrc_shield.current td.section,
+#rcmrowrc_shield.active td.section {
+  background-image: url("../images/rcs_menu_active.svg");
+}

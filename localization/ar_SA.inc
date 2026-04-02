@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'الدرع الدائري المكعب';
+$labels['section_title'] = 'الدرع الدائري المكعب';
+$labels['show_mailbox_icons'] = 'إظهار أيقونات تهديدات صندوق البريد';
+$labels['show_tooltips'] = 'إظهار تلميحات أدوات التهديد';
+$labels['panel_density'] = 'كثافة لوحة التحليل';
+$labels['panel_density_compact'] = 'مدمجة';
+$labels['panel_density_detailed'] = 'مفصلة';
+$labels['threat_score'] = 'درجة التهديد';
+$labels['message_analysis'] = 'تقييم التهديدات';
+$labels['header_intelligence'] = 'استخبارات الرؤوس';
+$labels['summary'] = 'الملخص';
+$labels['safe'] = 'الأمان';
+$labels['suspicious'] = 'مشبوه';
+$labels['danger'] = 'الخطورة';
+$labels['unknown'] = 'غير معروف';
+$labels['loading'] = 'تحليل الرسالة';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'من المجال';
+$labels['replyto_domain'] = 'نطاق الرد على المجال';
+$labels['returnpath_domain'] = 'مجال مسار الإرجاع';
+$labels['origin_ip'] = 'عنوان IP الأصلي';
+$labels['reverse_dns'] = 'نظام أسماء النطاقات العكسي';
+$labels['geo'] = 'البلد';
+$labels['reputation'] = 'السمعة';
+$labels['reasons'] = 'الأسباب';
+$labels['technical_details'] = 'التفاصيل الفنية';
+$labels['mismatch_warning'] = 'تم اكتشاف عدم تطابق في المجال';
+$labels['not_available'] = 'غير متوفر';
+$labels['cache_purged'] = 'تم مسح ذاكرة التخزين المؤقت لدرع RoundcubeShield';
+?>

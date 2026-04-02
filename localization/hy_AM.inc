@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'ՌաունդկյուբՇիլդ';
+$labels['section_title'] = 'ՌաունդկյուբՇիլդ';
+$labels['show_mailbox_icons'] = 'Ցուցադրել փոստարկղի սպառնալիքի պատկերակները';
+$labels['show_tooltips'] = 'Ցուցադրել սպառնալիքի գործիքի հուշագրերը';
+$labels['panel_density'] = 'Վերլուծական վահանակի խտություն';
+$labels['panel_density_compact'] = 'Կոմպակտ';
+$labels['panel_density_detailed'] = 'Մանրամասն';
+$labels['threat_score'] = 'Վտանգի գնահատական';
+$labels['message_analysis'] = 'Վտանգի գնահատում';
+$labels['header_intelligence'] = 'Գլխավորության ինտելեկտ';
+$labels['summary'] = 'Ամփոփում';
+$labels['safe'] = 'Անվտանգ';
+$labels['suspicious'] = 'Կասկածելի';
+$labels['danger'] = 'Վտանգավոր';
+$labels['unknown'] = 'Անհայտ';
+$labels['loading'] = 'Հաղորդագրության վերլուծություն';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'Դի Քայ Մեյ';
+$labels['dmarc'] = 'ԴՄԱՐԿ';
+$labels['from_domain'] = 'Դոմենից';
+$labels['replyto_domain'] = 'Պատասխան ուղարկել տիրույթին';
+$labels['returnpath_domain'] = 'Վերադարձի ուղի տիրույթ';
+$labels['origin_ip'] = 'Աղբյուրային IP';
+$labels['reverse_dns'] = 'Հակադարձ DNS';
+$labels['geo'] = 'Երկիր';
+$labels['reputation'] = 'Հեղինակություն';
+$labels['reasons'] = 'Պատճառներ';
+$labels['technical_details'] = 'Տեխնիկական մանրամասներ';
+$labels['mismatch_warning'] = 'Դոմենների անհամապատասխանություն հայտնաբերվել է';
+$labels['not_available'] = 'Չի հասանելի';
+$labels['cache_purged'] = 'RoundcubeShield քեշը մաքրվել է';
+?>

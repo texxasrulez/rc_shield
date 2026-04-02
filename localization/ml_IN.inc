@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'റൗണ്ട്ക്യൂബ്ഷീൽഡ്';
+$labels['section_title'] = 'റൗണ്ട്ക്യൂബ്ഷീൽഡ്';
+$labels['show_mailbox_icons'] = 'മെയിൽബോക്സിലെ ഭീഷണി ഐക്കണുകൾ കാണിക്കുക';
+$labels['show_tooltips'] = 'ഭീഷണി ടൂൾടിപ്പുകൾ കാണിക്കുക';
+$labels['panel_density'] = 'വിശകലന പാനൽ സാന്ദ്രത';
+$labels['panel_density_compact'] = 'ഒതുക്കമുള്ള';
+$labels['panel_density_detailed'] = 'വിശദമായ';
+$labels['threat_score'] = 'ഭീഷണി സ്കോർ';
+$labels['message_analysis'] = 'ഭീഷണി വിലയിരുത്തൽ';
+$labels['header_intelligence'] = 'ഹെഡർ ഇന്റലിജൻസ്';
+$labels['summary'] = 'സംഗ്രഹം';
+$labels['safe'] = 'സുരക്ഷിതം';
+$labels['suspicious'] = 'സംശയാസ്പദം';
+$labels['danger'] = 'അപകടകരമായ';
+$labels['unknown'] = 'അജ്ഞാതം';
+$labels['loading'] = 'സന്ദേശം വിശകലനം ചെയ്യുന്നു';
+$labels['spf'] = 'എസ്.പി.എഫ്';
+$labels['dkim'] = 'ഡി‌കെ‌ഐ‌എം';
+$labels['dmarc'] = 'ഡിമാർക്ക്';
+$labels['from_domain'] = 'ഡൊമെയ്നിൽ നിന്ന്';
+$labels['replyto_domain'] = 'മറുപടി അയയ്‌ക്കേണ്ട ഡൊമെയ്ൻ';
+$labels['returnpath_domain'] = 'റിട്ടേൺ-പാത്ത് ഡൊമെയ്ൻ';
+$labels['origin_ip'] = 'ഉത്ഭവ ഐപി';
+$labels['reverse_dns'] = 'റിവേഴ്സ് ഡിഎൻഎസ്';
+$labels['geo'] = 'രാജ്യം';
+$labels['reputation'] = 'സൽപ്പേര്';
+$labels['reasons'] = 'കാരണങ്ങൾ';
+$labels['technical_details'] = 'സാങ്കേതിക വിശദാംശങ്ങൾ';
+$labels['mismatch_warning'] = 'ഡൊമെയ്ൻ പൊരുത്തക്കേട് കണ്ടെത്തി';
+$labels['not_available'] = 'ലഭ്യമല്ല';
+$labels['cache_purged'] = 'റൗണ്ട്ക്യൂബ്ഷീൽഡ് കാഷ് ഒഴിവാക്കി';
+?>

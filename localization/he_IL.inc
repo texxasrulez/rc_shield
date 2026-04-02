@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'הצג סמלי איום בתיבת הדואר';
+$labels['show_tooltips'] = 'הצג תיאורי אזהרה';
+$labels['panel_density'] = 'צפיפות לוח הניתוח';
+$labels['panel_density_compact'] = 'קומפקטי';
+$labels['panel_density_detailed'] = 'מפורט';
+$labels['threat_score'] = 'ציון האיום';
+$labels['message_analysis'] = 'הערכת איומים';
+$labels['header_intelligence'] = 'ניתוח כותרות';
+$labels['summary'] = 'סיכום';
+$labels['safe'] = 'בטוח';
+$labels['suspicious'] = 'חשוד';
+$labels['danger'] = 'מסוכן';
+$labels['unknown'] = 'לא ידוע';
+$labels['loading'] = 'ניתוח הודעה';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'מהדומיין';
+$labels['replyto_domain'] = 'תחום "השב ל-"';
+$labels['returnpath_domain'] = 'תחום Return-Path';
+$labels['origin_ip'] = 'כתובת IP מקורית';
+$labels['reverse_dns'] = 'DNS הפוך';
+$labels['geo'] = 'מדינה';
+$labels['reputation'] = 'מוניטין';
+$labels['reasons'] = 'סיבות';
+$labels['technical_details'] = 'פרטים טכניים';
+$labels['mismatch_warning'] = 'זוהתה אי-התאמה בין הדומיינים';
+$labels['not_available'] = 'לא זמין';
+$labels['cache_purged'] = 'מטמון RoundcubeShield נוקה';
+?>

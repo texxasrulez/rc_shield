@@ -1,0 +1,50 @@
+<?php
+
+$config['rcs_debug'] = false;
+$config['rcs_analysis_version'] = '1';
+
+$config['rcs_enable_dns'] = true;
+$config['rcs_enable_geo'] = true;
+$config['rcs_enable_external_reputation'] = false;
+
+$config['rcs_cache_ttl_analysis'] = 86400;
+$config['rcs_cache_ttl_reputation'] = 43200;
+$config['rcs_cache_ttl_headers'] = 86400;
+$config['rcs_cache_ttl_geo'] = 604800;
+
+$config['rcs_score_threshold_safe_max'] = 30;
+$config['rcs_score_threshold_suspicious_max'] = 70;
+
+$config['rcs_weight_spf_fail'] = 30;
+$config['rcs_weight_spf_softfail'] = 15;
+$config['rcs_weight_spf_none'] = 10;
+$config['rcs_weight_dkim_fail'] = 25;
+$config['rcs_weight_dkim_none'] = 15;
+$config['rcs_weight_dmarc_fail'] = 25;
+$config['rcs_weight_dmarc_none'] = 10;
+$config['rcs_weight_replyto_mismatch'] = 20;
+$config['rcs_weight_returnpath_mismatch'] = 15;
+$config['rcs_weight_suspicious_helo'] = 12;
+$config['rcs_weight_no_rdns'] = 10;
+$config['rcs_weight_blacklist_hit'] = 35;
+$config['rcs_weight_private_origin_ip'] = 5;
+$config['rcs_weight_malformed_headers'] = 10;
+$config['rcs_weight_trusted_sender_deduction'] = -20;
+$config['rcs_weight_trusted_network_deduction'] = -15;
+
+$config['rcs_mailbox_batch_limit'] = 200;
+$config['rcs_http_timeout'] = 4;
+$config['rcs_dnsbl_providers'] = [];
+$config['rcs_http_providers'] = [];
+$config['rcs_allowed_http_hosts'] = [];
+$config['rcs_allowlisted_domains'] = [];
+$config['rcs_allowlisted_emails'] = [];
+$config['rcs_allowlisted_ip_ranges'] = [];
+$config['rcs_blocklisted_domains'] = [];
+$config['rcs_blocklisted_ips'] = [];
+$config['rcs_trusted_mta_networks'] = [];
+$config['rcs_admin_user_ids'] = [];
+
+$config['preferences']['rcs_show_mailbox_icons'] = true;
+$config['preferences']['rcs_show_tooltips'] = true;
+$config['preferences']['rcs_panel_density'] = 'detailed';

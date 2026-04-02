@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'Mbrojtësi i Roundcube';
+$labels['section_title'] = 'Mbrojtësi i Roundcube';
+$labels['show_mailbox_icons'] = 'Tregoni ikonat e kërcënimit të kutisë postare';
+$labels['show_tooltips'] = 'Shfaq majëzat e kërcënimit';
+$labels['panel_density'] = 'Dendësia e panelit të analizës';
+$labels['panel_density_compact'] = 'Kompakt';
+$labels['panel_density_detailed'] = 'Detajuar';
+$labels['threat_score'] = 'Shkalla e kërcënimit';
+$labels['message_analysis'] = 'Vlerësimi i kërcënimit';
+$labels['header_intelligence'] = 'Inteligjenca e titullit';
+$labels['summary'] = 'Përmbledhje';
+$labels['safe'] = 'I sigurt';
+$labels['suspicious'] = 'Dyshuese';
+$labels['danger'] = 'E rrezikshme';
+$labels['unknown'] = 'E panjohur';
+$labels['loading'] = 'Analizimi i mesazhit';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Nga domeni';
+$labels['replyto_domain'] = 'Domeni i përgjigjes';
+$labels['returnpath_domain'] = 'Rruga e kthimit domeni';
+$labels['origin_ip'] = 'Origjinë IP';
+$labels['reverse_dns'] = 'DNS i kundërt';
+$labels['geo'] = 'Vend';
+$labels['reputation'] = 'Reputacion';
+$labels['reasons'] = 'Arsyet';
+$labels['technical_details'] = 'Detaje teknike';
+$labels['mismatch_warning'] = 'U zbulua mospërputhje e domenit';
+$labels['not_available'] = 'Nuk është i disponueshëm';
+$labels['cache_purged'] = 'Kashja e RoundcubeShield u pastrua';
+?>

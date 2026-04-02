@@ -1,0 +1,34 @@
+<?php
+$labels = array();
+$labels['plugin_title'] = 'RoundcubeShield';
+$labels['section_title'] = 'RoundcubeShield';
+$labels['show_mailbox_icons'] = 'Sýna ógnaríkona pósthólfs';
+$labels['show_tooltips'] = 'Sýna ógnarupplýsingar';
+$labels['panel_density'] = 'Þéttleiki greiningarpanels';
+$labels['panel_density_compact'] = 'Þéttur';
+$labels['panel_density_detailed'] = 'Nákvæmt';
+$labels['threat_score'] = 'Ógnarstig';
+$labels['message_analysis'] = 'Ógnarmat';
+$labels['header_intelligence'] = 'Hausgreind';
+$labels['summary'] = 'Yfirlit';
+$labels['safe'] = 'Öruggt';
+$labels['suspicious'] = 'Grunsamlegur';
+$labels['danger'] = 'Hættulegur';
+$labels['unknown'] = 'Óþekkt';
+$labels['loading'] = 'Greina skilaboð';
+$labels['spf'] = 'SPF';
+$labels['dkim'] = 'DKIM';
+$labels['dmarc'] = 'DMARC';
+$labels['from_domain'] = 'Frá léninu';
+$labels['replyto_domain'] = 'Svara-til lén';
+$labels['returnpath_domain'] = 'Svara-braut lén';
+$labels['origin_ip'] = 'Uppruni IP';
+$labels['reverse_dns'] = 'Öfugur DNS';
+$labels['geo'] = 'Land';
+$labels['reputation'] = 'Orðspor';
+$labels['reasons'] = 'Ástæður';
+$labels['technical_details'] = 'Tæknilegar upplýsingar';
+$labels['mismatch_warning'] = 'Ósamræmi í lénum greint';
+$labels['not_available'] = 'Ekki tiltækt';
+$labels['cache_purged'] = 'RoundcubeShield skyndiminni hreinsað';
+?>
