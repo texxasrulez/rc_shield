@@ -24,15 +24,12 @@ RoundcubeShield is a production-oriented Roundcube plugin that analyzes real mes
 - Optional admin cache purge endpoint.
 - User preferences for mailbox icons, tooltips, and compact vs detailed panel display.
 
-<<<<<<< Updated upstream
-=======
 **Screenshot**
 -----------
 
 ![Alt text](images/screenshot.png?raw=true "RoundcubeShield Screenshot")
 
 
->>>>>>> Stashed changes
 ## Supported Skins
 
 - `elastic`
