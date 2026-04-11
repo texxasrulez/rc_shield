@@ -80,12 +80,24 @@ class rcs_header_parser
                 }
 
                 if ($normalized[$method]['domain'] === '' && preg_match('/\b' . preg_quote($method, '/') . '\s*=\s*[a-z_]+[^;]*\b(?:header\.from|smtp\.mailfrom|header\.d|d)\s*=\s*([^;\s]+)/i', $flat, $matches)) {
-                    $normalized[$method]['domain'] = rcs_helpers::normalize_domain($matches[1]);
+                    $normalized[$method]['domain'] = $this->normalize_auth_domain($method, $matches[1]);
                 }
             }
         }
 
         return $normalized;
+    }
+
+    private function normalize_auth_domain(string $method, string $value): string
+    {
+        if ($method === 'spf') {
+            $mailFromDomain = rcs_helpers::domain_from_email($value);
+            if ($mailFromDomain !== '') {
+                return $mailFromDomain;
+            }
+        }
+
+        return rcs_helpers::normalize_domain($value);
     }
 
     private function extract_dkim_domain(string $header): string

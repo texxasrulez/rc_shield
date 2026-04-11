@@ -80,6 +80,19 @@ class rcs_storage
 
         if (is_object($headerObject)) {
             foreach (get_object_vars($headerObject) as $name => $value) {
+                if ($name === 'others' && is_array($value)) {
+                    foreach ($value as $otherName => $otherValue) {
+                        $normalized = $this->normalize_header_value($otherValue);
+                        if ($normalized === null) {
+                            continue;
+                        }
+
+                        $headers[rcs_helpers::normalize_header_name((string) $otherName)] = $normalized;
+                    }
+
+                    continue;
+                }
+
                 $normalized = $this->normalize_header_value($value);
                 if ($normalized === null) {
                     continue;

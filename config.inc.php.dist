@@ -1,7 +1,7 @@
 <?php
 
 $config['rcs_debug'] = false;
-$config['rcs_analysis_version'] = '1';
+$config['rcs_analysis_version'] = '2';
 
 $config['rcs_enable_dns'] = true;
 $config['rcs_enable_geo'] = true;

@@ -26,7 +26,7 @@ class rcs_reputation
         $cacheKey = $this->cache->build_key('reputation', [
             'origin_ip' => (string) ($normalized['origin_ip'] ?? ''),
             'from_domain' => (string) ($normalized['from']['domain'] ?? ''),
-            'version' => (string) $this->config->get('rcs_analysis_version', '1'),
+            'version' => (string) $this->config->get('rcs_analysis_version', '2'),
         ]);
 
         $cached = $this->cache->get('reputation', $cacheKey);

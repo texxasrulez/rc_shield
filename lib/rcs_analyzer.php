@@ -40,7 +40,7 @@ class rcs_analyzer
             'mailbox' => $mailbox,
             'uid' => $uid,
             'identity_hash' => $identityHash,
-            'version' => (string) $this->config->get('rcs_analysis_version', '1'),
+            'version' => (string) $this->config->get('rcs_analysis_version', '2'),
         ]);
 
         $cached = $this->cache->get('analysis', $cacheKey);
