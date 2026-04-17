@@ -1,32 +1,35 @@
 {
   "name": "texxasrulez/rc_shield",
-    "type": "roundcube-plugin",
+  "type": "roundcube-plugin",
   "description": "RoundcubeShield security analysis plugin for Roundcube",
-    "homepage": "https://github.com/texxasrulez/rc_shield",
-	"support": {
-		"issues": "https://github.com/texxasrulez/rc_shield/issues",
-		"source": "https://github.com/texxasrulez/rc_shield"
+  "homepage": "https://github.com/texxasrulez/rc_shield",
+  "support": {
+    "issues": "https://github.com/texxasrulez/rc_shield/issues",
+    "source": "https://github.com/texxasrulez/rc_shield"
   },
-  "license": "GPL-3.0",
-    "authors": [
-        {
-            "name": "Gene Hawkins",
-            "email": "texxasrulez@yahoo.com",
-            "role": "Lead"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://plugins.roundcube.net"
-        }
-    ],
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Gene Hawkins",
+      "email": "texxasrulez@yahoo.com",
+      "role": "Lead"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://plugins.roundcube.net"
+    }
+  ],
   "require": {
-    "php": ">=8.0"
+    "php": ">=8.0",
+    "roundcube/plugin-installer": "~0.3.5"
   },
   "extra": {
     "roundcube": {
-      "plugin-name": "rc_shield"
+      "plugin": "rc_shield",
+      "min-version": "1.6.0",
+      "sql-dir": "SQL"
     }
   }
 }

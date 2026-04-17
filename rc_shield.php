@@ -220,10 +220,10 @@ class rc_shield extends rcube_plugin
                 'statuses_url' => $this->mail_url(['_action' => 'plugin.rc_shield.statuses']),
                 'analysis_url' => $this->mail_url(['_action' => 'plugin.rc_shield.analysis']),
                 'icons' => [
-                    'safe' => $this->asset_url('images/rcs_safe.svg'),
-                    'suspicious' => $this->asset_url('images/rcs_warn.svg'),
-                    'danger' => $this->asset_url('images/rcs_danger.svg'),
-                    'unknown' => $this->asset_url('images/rcs_unknown.svg'),
+                    'safe' => $this->icon_url('images/rcs_safe.svg'),
+                    'suspicious' => $this->icon_url('images/rcs_warn.svg'),
+                    'danger' => $this->icon_url('images/rcs_danger.svg'),
+                    'unknown' => $this->icon_url('images/rcs_unknown.svg'),
                 ],
                 'strings' => [
                     'safe' => $this->gettext('safe'),
@@ -403,10 +403,38 @@ class rc_shield extends rcube_plugin
     {
         $path = ltrim($path, '/');
 
+        $url = '';
+
         if (method_exists($this, 'url')) {
-            return $this->url($path);
+            $url = (string) $this->url($path);
+        } else {
+            $url = './plugins/rc_shield/' . $path;
         }
 
-        return './plugins/rc_shield/' . $path;
+        if (preg_match('/^(?:[a-z][a-z0-9+.-]*:|\\/)/i', $url)) {
+            return $url;
+        }
+
+        if (isset($this->rcmail->output) && method_exists($this->rcmail->output, 'abs_url')) {
+            return (string) $this->rcmail->output->abs_url($url);
+        }
+
+        return $url;
+    }
+
+    private function icon_url(string $path): string
+    {
+        $path = ltrim($path, '/');
+        $fullPath = __DIR__ . '/' . $path;
+
+        if (is_readable($fullPath) && str_ends_with(strtolower($path), '.svg')) {
+            $svg = file_get_contents($fullPath);
+
+            if (is_string($svg) && $svg !== '') {
+                return 'data:image/svg+xml;charset=UTF-8,' . rawurlencode($svg);
+            }
+        }
+
+        return $this->asset_url($path);
     }
 }

@@ -50,8 +50,8 @@ Larry color variants reuse the base `larry` skin assets and only ship minimal wr
 
 ## Installation
 
-1. Copy `plugins/rc_shield` into the Roundcube plugin directory.
-2. Apply the SQL schema matching your Roundcube database engine from `plugins/rc_shield/SQL/`.
+1. Install the plugin with Composer or copy `plugins/rc_shield` into the Roundcube plugin directory.
+2. If you install through Composer with `roundcube/plugin-installer`, the schema in `plugins/rc_shield/SQL/` can be discovered automatically. For manual installs, apply the `*.initial.sql` schema matching your Roundcube database engine.
 3. Add `rc_shield` to `config/config.inc.php` in the Roundcube plugins array.
 4. Copy `plugins/rc_shield/config.inc.php.dist` to `plugins/rc_shield/config.inc.php` and adjust site-specific settings.
 5. Clear Roundcube caches and reload the mail UI.
@@ -248,8 +248,15 @@ Analysis is invalidated automatically when the message identity hash changes or 
 - More advanced geolocation providers.
 - Policy-aware trusted sender models.
 
+## Screenshots
+
+- Mailbox threat icons: placeholder
+- Message analysis panel: placeholder
+- Settings section: placeholder
+
 ## Upgrade Notes
 
-- Apply schema updates when moving between plugin versions that alter `rcs_cache`.
+- Composer-based installs can apply versioned schema updates from `SQL/<driver>/`.
+- Manual installs must apply the matching schema migration when moving between plugin versions that alter `rcs_cache`.
 - Bump `rcs_analysis_version` to invalidate old cached analysis after changing scoring or parsing behavior.
 - Review `rcs_allowed_http_hosts` and `rcs_http_providers` carefully before enabling external reputation.
