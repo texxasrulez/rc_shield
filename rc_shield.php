@@ -17,8 +17,16 @@ require_once __DIR__ . '/lib/rcs_controller.php';
 
 class rc_shield extends rcube_plugin
 {
+    const PLUGIN_VERSION = '1.0.0';
+    const PLUGIN_INFO = array(
+        'name' => 'rc_shield',
+        'vendor' => 'Gene Hawkins',
+        'version' => self::PLUGIN_VERSION,
+        'license' => 'GPL-3.0',
+        'uri' => 'https://github.com/texxasrulez/rc_shield',
+    );
     public $task = 'mail|settings';
-    public $version = '1.0.0';
+    public $version = self::PLUGIN_VERSION;
 
     private rcmail $rcmail;
     private rcs_controller $controller;
